@@ -1,0 +1,1 @@
+Three positions; top 300 by liquidity; production ranking and buffer 1; funded production rebalance; minimum 100 USD; 3000 USD initial; first trading session each week, monthly uses first weekly rebalance in month; daily adjusted closing marks. Existing-position weight adjustments disabled.

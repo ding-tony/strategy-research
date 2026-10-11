@@ -1,0 +1,47 @@
+{
+  "source": "2026-10-11-monthly-40-40-20",
+  "sourceSha256": "df90721f15d26feb70f61a76dda355bde9ba763b77f658349b93fb85d2087b7f",
+  "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
+  "records": [
+    {
+      "id": "2026-10-11-monthly-40-40-20:topPair",
+      "label": "Normal conservative \u00b7 40/40/20",
+      "source": "2026-10-11-monthly-40-40-20",
+      "window": "Full history",
+      "start": "2022-02-07",
+      "end": "2026-10-02",
+      "initial": 3000.0,
+      "base": "Normal momentum",
+      "factor": "Conservative",
+      "frequency": "Monthly",
+      "weight": "40/40/20",
+      "rebalance": "Weight maintenance",
+      "positions": 3,
+      "sector": "Max 2",
+      "stop": "25%",
+      "minimum": "$100",
+      "concentration": "None",
+      "floor": "85% initial capital",
+      "earnings": "No exit",
+      "basis": "Adjusted prices",
+      "pool": "Current cached universe",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 2611.8122039912214,
+        "cagrPct": 103.37742857510683,
+        "annualizedVolatilityPct": 41.43706689446848,
+        "sharpe": 1.9262249588131861,
+        "maxDrawdownPct": -36.40943967585507,
+        "orders": 172,
+        "endingEquity": 81354.36611973665,
+        "winRatePct": 62.5,
+        "top3Pct": 67.19575698419352,
+        "stopExits": 4,
+        "monthsOverFive": null
+      },
+      "derivedMetrics": []
+    }
+  ]
+}

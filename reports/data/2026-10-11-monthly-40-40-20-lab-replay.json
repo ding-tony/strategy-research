@@ -1,0 +1,47 @@
+{
+  "source": "2026-10-11-monthly-40-40-20-lab-replay",
+  "sourceSha256": "892f2de2e119ec027ce2aed9b63e2cf441cd94d22be8fbebfa4bdd5b4cae8260",
+  "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
+  "records": [
+    {
+      "id": "2026-10-11-monthly-40-40-20-lab-replay:topPair",
+      "label": "Normal conservative \u00b7 40/40/20",
+      "source": "2026-10-11-monthly-40-40-20-lab-replay",
+      "window": "Lab replay",
+      "start": "2026-08-03",
+      "end": "2026-10-09",
+      "initial": 3000.0,
+      "base": "Normal momentum",
+      "factor": "Conservative",
+      "frequency": "Monthly",
+      "weight": "40/40/20",
+      "rebalance": "Weight maintenance",
+      "positions": 3,
+      "sector": "Max 2",
+      "stop": "25%",
+      "minimum": "$100",
+      "concentration": "None",
+      "floor": "85% initial capital",
+      "earnings": "No exit",
+      "basis": "Raw lab prices",
+      "pool": "Current cached universe",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 50.8434750698749,
+        "cagrPct": 840.2341916272051,
+        "annualizedVolatilityPct": 53.693798593520484,
+        "sharpe": 4.2165384632098455,
+        "maxDrawdownPct": -14.111268839011348,
+        "orders": 13,
+        "endingEquity": 4525.304252096247,
+        "winRatePct": 75.0,
+        "top3Pct": 93.48518496309899,
+        "stopExits": 0,
+        "monthsOverFive": null
+      },
+      "derivedMetrics": []
+    }
+  ]
+}

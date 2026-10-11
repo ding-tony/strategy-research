@@ -1,0 +1,91 @@
+{
+  "source": "2026-10-05-sector-weekly-50pct-trigger-backtest",
+  "sourceSha256": "8933088e42046f7dee8d5b36d3900599d673c64f0c125e4fa764cc293b66dc72",
+  "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
+  "records": [
+    {
+      "id": "2026-10-05-sector-weekly-50pct-trigger-backtest:weekly",
+      "label": "Normal weekly \u00b7 50% review trigger",
+      "source": "2026-10-05-sector-weekly-50pct-trigger-backtest",
+      "window": "Full history",
+      "start": "2022-02-07",
+      "end": "2026-10-02",
+      "initial": 3000,
+      "base": "Normal momentum",
+      "factor": "Conservative",
+      "frequency": "Weekly",
+      "weight": "Equal",
+      "rebalance": "Rotation only",
+      "positions": 3,
+      "sector": "None",
+      "stop": "None",
+      "minimum": "$100",
+      "concentration": "50% review trigger",
+      "floor": "Off",
+      "earnings": "Exit before earnings",
+      "basis": "Adjusted prices",
+      "pool": "Current cached universe",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 1597.4032763724076,
+        "cagrPct": null,
+        "annualizedVolatilityPct": 38.3945379721621,
+        "sharpe": 1.7852253003046634,
+        "maxDrawdownPct": -45.9926367488939,
+        "orders": 239,
+        "endingEquity": 50922.098291172224,
+        "winRatePct": 62.71186440677966,
+        "top3Pct": 64.12979702266436,
+        "stopExits": null,
+        "monthsOverFive": null
+      },
+      "derivedMetrics": [
+        "Sharpe recomputed from saved daily equity, sample standard deviation, zero risk-free rate."
+      ]
+    },
+    {
+      "id": "2026-10-05-sector-weekly-50pct-trigger-backtest:sectorWeekly",
+      "label": "Sector-cap weekly \u00b7 50% review trigger",
+      "source": "2026-10-05-sector-weekly-50pct-trigger-backtest",
+      "window": "Full history",
+      "start": "2022-02-07",
+      "end": "2026-10-02",
+      "initial": 3000,
+      "base": "Normal momentum",
+      "factor": "Conservative",
+      "frequency": "Weekly",
+      "weight": "Equal",
+      "rebalance": "Rotation only",
+      "positions": 3,
+      "sector": "Max 2",
+      "stop": "None",
+      "minimum": "$100",
+      "concentration": "50% review trigger",
+      "floor": "Off",
+      "earnings": "Exit before earnings",
+      "basis": "Adjusted prices",
+      "pool": "Current cached universe",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 1501.3173177037283,
+        "cagrPct": null,
+        "annualizedVolatilityPct": 36.52092272805272,
+        "sharpe": 1.8224183041751956,
+        "maxDrawdownPct": -38.94139568719952,
+        "orders": 237,
+        "endingEquity": 48039.51953111186,
+        "winRatePct": 62.06896551724138,
+        "top3Pct": 63.31004335386325,
+        "stopExits": null,
+        "monthsOverFive": null
+      },
+      "derivedMetrics": [
+        "Sharpe recomputed from saved daily equity, sample standard deviation, zero risk-free rate."
+      ]
+    }
+  ]
+}
