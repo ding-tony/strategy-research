@@ -1,0 +1,47 @@
+{
+  "source": "2026-10-11-skip-month-monthly-trailing25-concentration60-backtest",
+  "sourceSha256": "eaf5968e083db6389526e56f6684e3a27ae40e8484974f845193f66e9b2ecfbe",
+  "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
+  "records": [
+    {
+      "id": "2026-10-11-skip-month-monthly-trailing25-concentration60-backtest:trailing25Trigger60",
+      "label": "Skip-month + conservative \u00b7 40/40/20 \u00b7 trailing 25% \u00b7 60% concentration",
+      "source": "2026-10-11-skip-month-monthly-trailing25-concentration60-backtest",
+      "window": "Full history",
+      "start": "2022-02-07",
+      "end": "2026-10-02",
+      "initial": 3000.0,
+      "base": "Skip-month",
+      "factor": "Conservative",
+      "frequency": "Monthly",
+      "weight": "40/40/20",
+      "rebalance": "Weight maintenance",
+      "positions": 3,
+      "sector": "Max 2",
+      "stop": "25% trailing (entry-seeded closing high)",
+      "minimum": "$100",
+      "concentration": "60% daily-close \u2192 next-open trigger",
+      "floor": "85% initial capital",
+      "earnings": "No exit",
+      "basis": "Adjusted prices",
+      "pool": "Common skip-history eligibility",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 3165.773196923216,
+        "cagrPct": 111.67398579577825,
+        "annualizedVolatilityPct": 43.57650822876721,
+        "sharpe": 1.9394526646302153,
+        "maxDrawdownPct": -37.78591972415458,
+        "orders": 177,
+        "endingEquity": 97973.19590769647,
+        "winRatePct": 60.416666666666664,
+        "top3Pct": 71.06964350945788,
+        "stopExits": 10,
+        "monthsOverFive": 3
+      },
+      "derivedMetrics": []
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Interactive version: download [index.html](../index.html) and open it in a brows
 
 To host on GitHub Pages, publish this standalone HTML file through your preferred Pages setup. The published site is linked from the repository README.
 
-Catalog snapshot: October 11, 2026 · 54 saved runs · 15 sources. No new tests or live-lab changes.
+Catalog snapshot: October 11, 2026 · 61 saved runs · 19 sources. No new tests or live-lab changes.
 
 Only tested combinations are selectable. Changing a rule may choose the nearest tested configuration; read the complete rules beneath each selection. Missing metrics remain blank. Dates, data eligibility, prices, protection rules and trade definitions may differ.
 
@@ -66,6 +66,13 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 | Skip-month + conservative · matched pool · sector cap | 2022-02-07–2026-10-02 | 1568.48% | 1.802 | 37.66% | -41.74% | 221 (raw) |
 | Normal conservative · original pool · sector cap · 50% trigger | 2022-02-07–2026-10-02 | 1500.62% | 1.822 | 36.52% | -38.94% | 237 (raw) |
 | Skip-month + conservative · matched pool · sector cap · 50% trigger | 2022-02-07–2026-10-02 | 1568.48% | 1.802 | 37.66% | -41.74% | 221 (raw) |
+| Skip-month + conservative · 40/40/20 · monthly-reference 25% | 2022-02-07–2026-10-02 | 3010.72% | 1.915 | 43.63% | -36.38% | 173 (raw) |
+| Skip-month + conservative · 40/40/20 · monthly-reference 25% · pre-earnings exit · capital-floor paused | 2022-02-07–2026-10-02 | -13.94% | -0.311 | 9.07% | -18.06% | 25 (raw) |
+| Skip-month + conservative · 40/40/20 · monthly-reference 25% · no-floor diagnostic | 2022-02-07–2026-10-02 | 3010.72% | 1.915 | 43.63% | -36.38% | 173 (raw) |
+| Skip-month + conservative · 40/40/20 · monthly-reference 25% · pre-earnings exit · no-floor diagnostic | 2022-02-07–2026-10-02 | 1150.57% | 1.620 | 38.00% | -32.17% | 210 (raw) |
+| Skip-month + conservative · 40/40/20 · trailing 25% | 2022-02-07–2026-10-02 | 3165.77% | 1.939 | 43.58% | -37.79% | 177 (raw) |
+| Skip-month + conservative · 40/40/20 · trailing 25% · 50% concentration | 2022-02-07–2026-10-02 | 3158.94% | 1.946 | 43.36% | -37.79% | 185 (raw) |
+| Skip-month + conservative · 40/40/20 · trailing 25% · 60% concentration | 2022-02-07–2026-10-02 | 3165.77% | 1.939 | 43.58% | -37.79% | 177 (raw) |
 
 
 ## Source reports
@@ -85,5 +92,9 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 - [2026-10-05-sector-weekly-rotation-only-baseline](2026-10-05-sector-weekly-rotation-only-baseline.md)
 - [Sector weekly: 50% position-trigger backtest](2026-10-05-sector-weekly-50pct-trigger-backtest.md)
 - [Skip-month plus conservative factor: weekly rotation-only backtest](2026-10-11-skip-month-conservative-weekly.md)
+- [Skip-month conservative monthly 40/40/20: pre-earnings exits](2026-10-11-skip-month-monthly-earnings-exit-backtest.md)
+- [Skip-month conservative monthly 40/40/20: trailing 25% stop](2026-10-11-skip-month-monthly-trailing-stop-backtest.md)
+- [Skip-month conservative monthly 40/40/20: trailing 25% stop plus 50% concentration trigger](2026-10-11-skip-month-monthly-trailing25-concentration50-backtest.md)
+- [Monthly 40/40/20 with trailing 25% stop: 60% winner-dominance trigger](2026-10-11-skip-month-monthly-trailing25-concentration60-backtest.md)
 
 Supporting JSON is in [data/](data/). Source hashes identify original research inputs; public per-report JSON contains extracted rules and metrics only.
