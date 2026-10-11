@@ -2463,6 +2463,10 @@
 <script>/* Shared tested-run selection and comparison checks; embedded for offline use. */
 globalThis.StrategyComparator = {
   fields: ['base', 'factor', 'frequency', 'weight', 'rebalance', 'positions'],
+  highestSharpe(records) {
+    return records.filter(r => Number.isFinite(r.metrics.sharpe))
+      .reduce((best, r) => !best || r.metrics.sharpe > best.metrics.sharpe ? r : best, null);
+  },
   choose(records, current, field, value) {
     const matches = records.filter(r => String(r[field]) === String(value));
     const score = r => this.fields.filter(k => k !== field && r[k] === current[k]).length * 10
@@ -2582,12 +2586,11 @@ globalThis.StrategyComparator = {
   }
   function reset() {
     const records=eligible();
-    const aName=el('window').value==='Lab replay'?'current':'currentStop25';
     const bName=el('window').value==='Lab replay'?'skipConservative':'skipMonthStop25';
     const stem=el('window').value==='Lab replay'?'2026-10-11-skip-month-conservative-lab-replay':'2026-10-11-skip-month-conservative-monthly';
-    state.a=records.find(r=>r.id===stem+':'+aName)||records[0];
+    state.a=model.highestSharpe(records)||records[0];
     state.b=records.find(r=>r.id===stem+':'+bName)||records[1]||records[0];
-    render();
+    render('A defaults to the highest saved Sharpe in this evidence window. Change B to compare; check all rules and assumptions.');
   }
   el('snapshot').textContent=`Saved snapshot · ${date(catalog.updated)} · ${catalog.records.length} runs · ${Object.keys(catalog.reports).length} sources`;
   catalog.library.forEach(report=>{
