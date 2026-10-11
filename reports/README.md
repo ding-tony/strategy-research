@@ -4,7 +4,7 @@ Interactive version: download [index.html](../index.html) and open it in a brows
 
 To host on GitHub Pages, publish this standalone HTML file through your preferred Pages setup. The published site is linked from the repository README.
 
-Catalog snapshot: October 11, 2026 · 45 saved runs · 14 sources. No new tests or live-lab changes.
+Catalog snapshot: October 11, 2026 · 55 saved runs · 15 sources. No new tests or live-lab changes.
 
 Only tested combinations are selectable. Changing a rule may choose the nearest tested configuration; read the complete rules beneath each selection. Missing metrics remain blank. Dates, data eligibility, prices, protection rules and trade definitions may differ.
 
@@ -57,6 +57,16 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 | Sector-cap weekly · None | 2022-02-07–2026-10-02 | 1493.01% | 1.814 | 36.67% | -38.94% | 235 (raw) |
 | Normal weekly · 50% review trigger | 2022-02-07–2026-10-02 | 1597.40% | 1.785 | 38.39% | -45.99% | 239 (raw) |
 | Sector-cap weekly · 50% review trigger | 2022-02-07–2026-10-02 | 1501.32% | 1.822 | 36.52% | -38.94% | 237 (raw) |
+| Normal conservative · original pool · no sector cap | 2022-02-07–2026-10-02 | 1596.66% | 1.785 | 38.39% | -45.99% | 239 (raw) |
+| Normal conservative · original pool · sector cap | 2022-02-07–2026-10-02 | 1492.33% | 1.813 | 36.67% | -38.94% | 235 (raw) |
+| Normal conservative · matched pool · no sector cap | 2022-02-07–2026-10-02 | 1626.77% | 1.803 | 38.18% | -45.99% | 241 (raw) |
+| Normal conservative · matched pool · sector cap | 2022-02-07–2026-10-02 | 1520.53% | 1.832 | 36.45% | -38.94% | 237 (raw) |
+| Pure skip-month · matched pool · no sector cap | 2022-02-07–2026-10-02 | 3525.75% | 1.662 | 56.13% | -43.47% | 223 (raw) |
+| Pure skip-month · matched pool · sector cap | 2022-02-07–2026-10-02 | 3418.63% | 1.652 | 56.02% | -46.80% | 221 (raw) |
+| Skip-month + conservative · matched pool · no sector cap | 2022-02-07–2026-10-02 | 1466.74% | 1.723 | 38.88% | -45.62% | 217 (raw) |
+| Skip-month + conservative · matched pool · sector cap | 2022-02-07–2026-10-02 | 1568.48% | 1.802 | 37.66% | -41.74% | 221 (raw) |
+| Normal conservative · original pool · sector cap · 50% trigger | 2022-02-07–2026-10-02 | 1500.62% | 1.822 | 36.52% | -38.94% | 237 (raw) |
+| Skip-month + conservative · matched pool · sector cap · 50% trigger | 2022-02-07–2026-10-02 | 1568.48% | 1.802 | 37.66% | -41.74% | 221 (raw) |
 
 
 ## Source reports
@@ -75,5 +85,6 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 - [Monthly rotation-only position-count comparison](2026-09-29-monthly-rotation-position-count-backtest.md)
 - [2026-10-05-sector-weekly-rotation-only-baseline](2026-10-05-sector-weekly-rotation-only-baseline.md)
 - [Sector weekly: 50% position-trigger backtest](2026-10-05-sector-weekly-50pct-trigger-backtest.md)
+- [Skip-month plus conservative factor: weekly rotation-only backtest](2026-10-11-skip-month-conservative-weekly.md)
 
 Supporting JSON is in [data/](data/). Source hashes identify original research inputs; public per-report JSON contains extracted rules and metrics only.
