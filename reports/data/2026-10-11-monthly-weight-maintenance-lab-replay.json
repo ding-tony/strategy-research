@@ -1,6 +1,6 @@
 {
   "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
-  "sourceSha256": "cceebc850d40f310a2c8fb2e33882e5b9c8983f05d6d0677b56f85371335e2b4",
+  "sourceSha256": "7fe1f2fb22bab95bf2f2cb3a382440c88f8a29f120083409a1316091fb49c2d1",
   "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
   "records": [
     {
@@ -9,7 +9,7 @@
       "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -29,17 +29,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
-        "stopExits": null,
-        "monthsOverFive": null
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
+        "stopExits": 0,
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -49,7 +49,7 @@
       "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -69,17 +69,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 42.94163949676213,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 46.00217762668947,
-        "sharpe": 4.233828111871587,
+        "totalReturnPct": 35.38061332129312,
+        "cagrPct": 532.1935424023116,
+        "annualizedVolatilityPct": 46.95628389127773,
+        "sharpe": 3.9367960008094767,
         "maxDrawdownPct": -11.794240238197851,
-        "orders": 13,
-        "endingEquity": 4288.249184902864,
-        "winRatePct": 75.0,
-        "top3Pct": 87.74091948081448,
-        "stopExits": null,
-        "monthsOverFive": null
+        "orders": 9,
+        "endingEquity": 4061.4183996387933,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 86.61502864244099,
+        "stopExits": 0,
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -89,7 +89,7 @@
       "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -109,17 +109,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 43.93957382827389,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 46.43256034315426,
-        "sharpe": 4.276376563617118,
+        "totalReturnPct": 35.38061332129312,
+        "cagrPct": 532.1935424023116,
+        "annualizedVolatilityPct": 46.95628389127772,
+        "sharpe": 3.9367960008094784,
         "maxDrawdownPct": -11.794240238197851,
-        "orders": 11,
-        "endingEquity": 4318.187214848217,
-        "winRatePct": 75.0,
-        "top3Pct": 87.93328117838858,
-        "stopExits": null,
-        "monthsOverFive": null
+        "orders": 9,
+        "endingEquity": 4061.4183996387937,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 86.61502864244098,
+        "stopExits": 0,
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     }

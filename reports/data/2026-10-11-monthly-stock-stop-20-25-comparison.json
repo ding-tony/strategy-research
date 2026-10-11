@@ -1,6 +1,6 @@
 {
   "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
-  "sourceSha256": "e848e58ad772c4a23ec91398de49389f43cf1efe282a942ac9e7815739dad10c",
+  "sourceSha256": "451b8115b8d80c868e645de6d9cc53352c2f4a5af4c918a1488c2b19b044e2dd",
   "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
   "records": [
     {
@@ -129,7 +129,7 @@
       "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -149,17 +149,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -169,7 +169,7 @@
       "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -189,17 +189,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -209,7 +209,7 @@
       "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -229,17 +229,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     }

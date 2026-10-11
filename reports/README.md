@@ -16,15 +16,15 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 | equalWeightMaintenance | 2022-02-07–2026-10-02 | 1598.73% | 1.763 | 39.00% | -34.38% | 164 (raw) |
 | equalWeightRotationOnly | 2022-02-07–2026-10-02 | 1602.44% | 1.669 | 41.90% | -39.51% | 91 (raw) |
 | rankWeightedNoMinimum | 2022-02-07–2026-10-02 | 2535.53% | 1.835 | 43.67% | -38.82% | 212 (raw) |
-| currentRankWeighted | 2026-08-03–2026-10-09 | 50.08% | 3.975 | 56.71% | -15.03% | 13 (raw) |
-| equalWeightMaintenance | 2026-08-03–2026-10-09 | 42.94% | 4.234 | 46.00% | -11.79% | 13 (raw) |
-| equalWeightRotationOnly | 2026-08-03–2026-10-09 | 43.94% | 4.276 | 46.43% | -11.79% | 11 (raw) |
+| currentRankWeighted | 2026-08-03–2026-10-02 | 36.35% | 3.423 | 56.64% | -15.03% | 9 (raw) |
+| equalWeightMaintenance | 2026-08-03–2026-10-02 | 35.38% | 3.937 | 46.96% | -11.79% | 9 (raw) |
+| equalWeightRotationOnly | 2026-08-03–2026-10-02 | 35.38% | 3.937 | 46.96% | -11.79% | 9 (raw) |
 | Normal conservative monthly · None stop | 2022-02-07–2026-10-02 | 2556.34% | 1.838 | 43.69% | -38.82% | 170 (raw) |
 | Normal conservative monthly · 25% stop | 2022-02-07–2026-10-02 | 2729.37% | 1.899 | 42.81% | -35.84% | 174 (raw) |
 | Normal conservative monthly · 20% stop | 2022-02-07–2026-10-02 | 2156.57% | 1.828 | 41.54% | -35.70% | 175 (raw) |
-| Normal conservative monthly · None stop | 2026-08-03–2026-10-09 | 50.08% | 3.975 | 56.71% | -15.03% | 13 (raw) |
-| Normal conservative monthly · 25% stop | 2026-08-03–2026-10-09 | 50.08% | 3.975 | 56.71% | -15.03% | 13 (raw) |
-| Normal conservative monthly · 20% stop | 2026-08-03–2026-10-09 | 50.08% | 3.975 | 56.71% | -15.03% | 13 (raw) |
+| Normal conservative monthly · None stop | 2026-08-03–2026-10-02 | 36.35% | 3.423 | 56.64% | -15.03% | 9 (raw) |
+| Normal conservative monthly · 25% stop | 2026-08-03–2026-10-02 | 36.35% | 3.423 | 56.64% | -15.03% | 9 (raw) |
+| Normal conservative monthly · 20% stop | 2026-08-03–2026-10-02 | 36.35% | 3.423 | 56.64% | -15.03% | 9 (raw) |
 | Sector weekly · None stop | 2022-02-07–2026-10-02 | 1501.32% | 1.822 | 36.52% | -38.94% | 237 (raw) |
 | Sector weekly · 20% stop | 2022-02-07–2026-10-02 | 1413.21% | 1.808 | 36.06% | -38.05% | 243 (raw) |
 | Skip-month weekly · rotationOnly | 2022-02-07–2026-10-02 | 3525.75% | 1.662 | 56.13% | -43.47% | 223 (raw) |
@@ -42,16 +42,16 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 | Normal conservative · matched pool · 25% stop | 2022-02-07–2026-10-02 | 2624.85% | 1.890 | 42.52% | -35.84% | 175 (raw) |
 | Skip-month + conservative · matched pool · no stop | 2022-02-07–2026-10-02 | 2835.85% | 1.848 | 44.85% | -38.82% | 175 (raw) |
 | Skip-month + conservative · matched pool · 25% stop | 2022-02-07–2026-10-02 | 3025.51% | 1.906 | 44.00% | -35.95% | 180 (raw) |
-| Current monthly lab · recorded selections | 2026-08-03–2026-10-09 | 50.08% | 3.975 | 56.71% | -15.03% | 13 (raw) |
-| Normal conservative · recalculated | 2026-08-03–2026-10-09 | 46.03% | 3.688 | 57.39% | -15.03% | 11 (raw) |
-| Skip-month + conservative · recalculated | 2026-08-03–2026-10-09 | 79.71% | 4.033 | 83.08% | -14.85% | 10 (raw) |
+| Current monthly lab · recorded selections | 2026-08-03–2026-10-02 | 36.35% | 3.423 | 56.64% | -15.03% | 9 (raw) |
+| Normal conservative · recalculated | 2026-08-03–2026-10-02 | 31.97% | 3.118 | 56.05% | -15.03% | 8 (raw) |
+| Skip-month + conservative · recalculated | 2026-08-03–2026-10-02 | 62.40% | 3.678 | 84.87% | -14.85% | 7 (raw) |
 | Normal conservative · 40/40/20 · matched pool | 2022-02-07–2026-10-02 | 2490.68% | 1.914 | 41.11% | -36.41% | 173 (raw) |
 | Skip-month + conservative · 40/40/20 | 2022-02-07–2026-10-02 | 3010.72% | 1.915 | 43.63% | -36.38% | 173 (raw) |
 | Normal conservative · 40/40/20 | 2022-02-07–2026-10-02 | 2611.81% | 1.926 | 41.44% | -36.41% | 172 (raw) |
-| Normal conservative · 40/40/20 | 2026-08-03–2026-10-09 | 50.84% | 4.217 | 53.69% | -14.11% | 13 (raw) |
-| 3-position monthly rotation | 2022-02-07–2026-09-08 | 502.22% | 1.239 | 37.45% | -40.43% | 97 (raw) |
-| 4-position monthly rotation | 2022-02-07–2026-09-08 | 459.18% | 1.285 | 33.86% | -35.46% | 142 (raw) |
-| 5-position monthly rotation | 2022-02-07–2026-09-08 | 365.47% | 1.260 | 30.44% | -33.14% | 187 (raw) |
+| Normal conservative · 40/40/20 | 2026-08-03–2026-10-02 | 39.15% | 3.744 | 54.62% | -14.11% | 9 (raw) |
+| 3-position monthly rotation | 2022-02-07–2026-10-02 | 541.69% | 1.262 | 37.34% | -40.43% | 97 (raw) |
+| 4-position monthly rotation | 2022-02-07–2026-10-02 | 481.76% | 1.295 | 33.78% | -35.46% | 142 (raw) |
+| 5-position monthly rotation | 2022-02-07–2026-10-02 | 387.15% | 1.276 | 30.40% | -33.13% | 187 (raw) |
 | Normal weekly · None | 2022-02-07–2026-10-02 | 1597.40% | 1.785 | 38.39% | -45.99% | 239 (raw) |
 | Sector-cap weekly · None | 2022-02-07–2026-10-02 | 1493.01% | 1.814 | 36.67% | -38.94% | 235 (raw) |
 | Normal weekly · 50% review trigger | 2022-02-07–2026-10-02 | 1597.40% | 1.785 | 38.39% | -45.99% | 239 (raw) |
@@ -71,17 +71,17 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 ## Source reports
 
 - [Three-position monthly: rank effectiveness and weight maintenance](2026-10-11-monthly-weight-maintenance-full-history-no-minimum.md)
-- [Three-position monthly: rank effectiveness and weight maintenance](2026-10-11-monthly-weight-maintenance-lab-replay.md)
-- [Monthly rank-weight: 20% versus 25% single-stock stop](2026-10-11-monthly-stock-stop-20-25-comparison.md)
+- [October-2 aligned replay: monthly weight maintenance lab replay](2026-10-11-monthly-weight-maintenance-lab-replay.md)
+- [October-2 aligned replay: monthly stock stop 20 25 comparison](2026-10-11-monthly-stock-stop-20-25-comparison.md)
 - [Sector-cap weekly: 20% single-stock stop](2026-10-11-sector-weekly-stock-stop-20.md)
 - [Skip-month weekly: maintenance, sector cap and volatility control](2026-10-11-skip-month-risk-variants.md)
 - [Skip-month monthly: equal weights versus rank weights](2026-10-11-skip-month-equal-monthly.md)
 - [Skip-month plus conservative factor: matched monthly backtest](2026-10-11-skip-month-conservative-monthly.md)
-- [Skip-month plus conservative: current monthly lab replay](2026-10-11-skip-month-conservative-lab-replay.md)
+- [October-2 aligned replay: skip month conservative lab replay](2026-10-11-skip-month-conservative-lab-replay.md)
 - [Skip-month conservative monthly: 40/40/20 weights](2026-10-11-skip-month-conservative-monthly-40-40-20.md)
 - [Monthly rank weights: 40/40/20 versus current](2026-10-11-monthly-40-40-20.md)
-- [Monthly rank weights: 40/40/20 versus current](2026-10-11-monthly-40-40-20-lab-replay.md)
-- [Monthly rotation-only position-count comparison](2026-09-29-monthly-rotation-position-count-backtest.md)
+- [October-2 aligned replay: monthly 40 40 20 lab replay](2026-10-11-monthly-40-40-20-lab-replay.md)
+- [Monthly rotation-only position count: October-2 aligned backtest](2026-09-29-monthly-rotation-position-count-backtest.md)
 - [2026-10-05-sector-weekly-rotation-only-baseline](2026-10-05-sector-weekly-rotation-only-baseline.md)
 - [Sector weekly: 50% position-trigger backtest](2026-10-05-sector-weekly-50pct-trigger-backtest.md)
 - [Skip-month plus conservative factor: weekly rotation-only backtest](2026-10-11-skip-month-conservative-weekly.md)

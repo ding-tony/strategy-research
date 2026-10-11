@@ -1,6 +1,6 @@
 {
   "source": "2026-10-11-skip-month-conservative-lab-replay",
-  "sourceSha256": "cf215e846a5b966d4378e9086b657a6afd9a1e091ac49f07be87e9c7b76a02e2",
+  "sourceSha256": "2d3ab72daf4f1e0f722fac1697693986eac4b17c5a0fcaebb6e61144c19f08cf",
   "scope": "Paper backtest/replay rules and saved metrics; no real portfolio records.",
   "records": [
     {
@@ -9,7 +9,7 @@
       "source": "2026-10-11-skip-month-conservative-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -29,17 +29,17 @@
       "selection": "Recorded lab baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": 814.6463116378729,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -49,7 +49,7 @@
       "source": "2026-10-11-skip-month-conservative-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -69,17 +69,17 @@
       "selection": "Refreshed rankings",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 46.03114936427015,
-        "cagrPct": 687.9042347041742,
-        "annualizedVolatilityPct": 57.38889859115612,
-        "sharpe": 3.6878836023427524,
+        "totalReturnPct": 31.96528216602832,
+        "cagrPct": 441.12595730379,
+        "annualizedVolatilityPct": 56.045009121656854,
+        "sharpe": 3.11790557195792,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 11,
-        "endingEquity": 4380.934480928105,
+        "orders": 8,
+        "endingEquity": 3958.95846498085,
         "winRatePct": 100.0,
-        "top3Pct": 97.8456348894542,
+        "top3Pct": 96.99917346460033,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 0
       },
       "derivedMetrics": []
     },
@@ -89,7 +89,7 @@
       "source": "2026-10-11-skip-month-conservative-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Skip-month",
       "factor": "Conservative",
@@ -109,17 +109,17 @@
       "selection": "Refreshed rankings",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 79.7116137844307,
-        "cagrPct": 2342.417762863459,
-        "annualizedVolatilityPct": 83.07809984747068,
-        "sharpe": 4.033076341431881,
+        "totalReturnPct": 62.4016103743499,
+        "cagrPct": 1814.1177136873266,
+        "annualizedVolatilityPct": 84.86742432561347,
+        "sharpe": 3.6784952443900876,
         "maxDrawdownPct": -14.846304380191777,
-        "orders": 10,
-        "endingEquity": 5391.348413532921,
+        "orders": 7,
+        "endingEquity": 4872.048311230497,
         "winRatePct": 100.0,
-        "top3Pct": 100.0,
+        "top3Pct": 99.99999999999999,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 0
       },
       "derivedMetrics": []
     }

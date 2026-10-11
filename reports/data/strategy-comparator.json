@@ -167,7 +167,7 @@
       "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -187,17 +187,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
-        "stopExits": null,
-        "monthsOverFive": null
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
+        "stopExits": 0,
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -207,7 +207,7 @@
       "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -227,17 +227,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 42.94163949676213,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 46.00217762668947,
-        "sharpe": 4.233828111871587,
+        "totalReturnPct": 35.38061332129312,
+        "cagrPct": 532.1935424023116,
+        "annualizedVolatilityPct": 46.95628389127773,
+        "sharpe": 3.9367960008094767,
         "maxDrawdownPct": -11.794240238197851,
-        "orders": 13,
-        "endingEquity": 4288.249184902864,
-        "winRatePct": 75.0,
-        "top3Pct": 87.74091948081448,
-        "stopExits": null,
-        "monthsOverFive": null
+        "orders": 9,
+        "endingEquity": 4061.4183996387933,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 86.61502864244099,
+        "stopExits": 0,
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -247,7 +247,7 @@
       "source": "2026-10-11-monthly-weight-maintenance-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -267,17 +267,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 43.93957382827389,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 46.43256034315426,
-        "sharpe": 4.276376563617118,
+        "totalReturnPct": 35.38061332129312,
+        "cagrPct": 532.1935424023116,
+        "annualizedVolatilityPct": 46.95628389127772,
+        "sharpe": 3.9367960008094784,
         "maxDrawdownPct": -11.794240238197851,
-        "orders": 11,
-        "endingEquity": 4318.187214848217,
-        "winRatePct": 75.0,
-        "top3Pct": 87.93328117838858,
-        "stopExits": null,
-        "monthsOverFive": null
+        "orders": 9,
+        "endingEquity": 4061.4183996387937,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 86.61502864244098,
+        "stopExits": 0,
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -407,7 +407,7 @@
       "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -427,17 +427,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -447,7 +447,7 @@
       "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -467,17 +467,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -487,7 +487,7 @@
       "source": "2026-10-11-monthly-stock-stop-20-25-comparison",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -507,17 +507,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": null,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -1207,7 +1207,7 @@
       "source": "2026-10-11-skip-month-conservative-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -1227,17 +1227,17 @@
       "selection": "Recorded lab baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.08194256965677,
-        "cagrPct": 814.6463116378729,
-        "annualizedVolatilityPct": 56.7117950240567,
-        "sharpe": 3.975183342071012,
+        "totalReturnPct": 36.347180410413074,
+        "cagrPct": 560.1741385649832,
+        "annualizedVolatilityPct": 56.64211713682541,
+        "sharpe": 3.4231570354015526,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 13,
-        "endingEquity": 4502.458277089703,
-        "winRatePct": 75.0,
-        "top3Pct": 94.6693695570072,
+        "orders": 9,
+        "endingEquity": 4090.415412312392,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 92.62934453287642,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -1247,7 +1247,7 @@
       "source": "2026-10-11-skip-month-conservative-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -1267,17 +1267,17 @@
       "selection": "Refreshed rankings",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 46.03114936427015,
-        "cagrPct": 687.9042347041742,
-        "annualizedVolatilityPct": 57.38889859115612,
-        "sharpe": 3.6878836023427524,
+        "totalReturnPct": 31.96528216602832,
+        "cagrPct": 441.12595730379,
+        "annualizedVolatilityPct": 56.045009121656854,
+        "sharpe": 3.11790557195792,
         "maxDrawdownPct": -15.033581466694734,
-        "orders": 11,
-        "endingEquity": 4380.934480928105,
+        "orders": 8,
+        "endingEquity": 3958.95846498085,
         "winRatePct": 100.0,
-        "top3Pct": 97.8456348894542,
+        "top3Pct": 96.99917346460033,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 0
       },
       "derivedMetrics": []
     },
@@ -1287,7 +1287,7 @@
       "source": "2026-10-11-skip-month-conservative-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Skip-month",
       "factor": "Conservative",
@@ -1307,17 +1307,17 @@
       "selection": "Refreshed rankings",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 79.7116137844307,
-        "cagrPct": 2342.417762863459,
-        "annualizedVolatilityPct": 83.07809984747068,
-        "sharpe": 4.033076341431881,
+        "totalReturnPct": 62.4016103743499,
+        "cagrPct": 1814.1177136873266,
+        "annualizedVolatilityPct": 84.86742432561347,
+        "sharpe": 3.6784952443900876,
         "maxDrawdownPct": -14.846304380191777,
-        "orders": 10,
-        "endingEquity": 5391.348413532921,
+        "orders": 7,
+        "endingEquity": 4872.048311230497,
         "winRatePct": 100.0,
-        "top3Pct": 100.0,
+        "top3Pct": 99.99999999999999,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 0
       },
       "derivedMetrics": []
     },
@@ -1447,7 +1447,7 @@
       "source": "2026-10-11-monthly-40-40-20-lab-replay",
       "window": "Lab replay",
       "start": "2026-08-03",
-      "end": "2026-10-09",
+      "end": "2026-10-02",
       "initial": 3000.0,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -1467,17 +1467,17 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 50.8434750698749,
-        "cagrPct": 840.2341916272051,
-        "annualizedVolatilityPct": 53.693798593520484,
-        "sharpe": 4.2165384632098455,
+        "totalReturnPct": 39.15243050319657,
+        "cagrPct": 647.3090173544554,
+        "annualizedVolatilityPct": 54.62010469251742,
+        "sharpe": 3.744051957554281,
         "maxDrawdownPct": -14.111268839011348,
-        "orders": 13,
-        "endingEquity": 4525.304252096247,
-        "winRatePct": 75.0,
-        "top3Pct": 93.48518496309899,
+        "orders": 9,
+        "endingEquity": 4174.572915095897,
+        "winRatePct": 66.66666666666667,
+        "top3Pct": 91.35291561143396,
         "stopExits": 0,
-        "monthsOverFive": null
+        "monthsOverFive": 1
       },
       "derivedMetrics": []
     },
@@ -1487,7 +1487,7 @@
       "source": "2026-09-29-monthly-rotation-position-count-backtest",
       "window": "Full history",
       "start": "2022-02-07",
-      "end": "2026-09-08",
+      "end": "2026-10-02",
       "initial": 3000,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -1507,16 +1507,16 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 502.2162302815981,
-        "cagrPct": 47.955347693109765,
-        "annualizedVolatilityPct": 37.453574305357854,
-        "sharpe": 1.238631605276895,
-        "maxDrawdownPct": -40.43016797211179,
+        "totalReturnPct": 541.6856400034993,
+        "cagrPct": 49.16257801703736,
+        "annualizedVolatilityPct": 37.338835119901574,
+        "sharpe": 1.2617662774649376,
+        "maxDrawdownPct": -40.428963531286044,
         "orders": 97,
-        "endingEquity": 18066.486908447943,
+        "endingEquity": 19250.56920010498,
         "winRatePct": 61.702127659574465,
-        "top3Pct": 67.24248527597732,
-        "stopExits": null,
+        "top3Pct": 59.63051682970436,
+        "stopExits": 0,
         "monthsOverFive": 1
       },
       "derivedMetrics": []
@@ -1527,7 +1527,7 @@
       "source": "2026-09-29-monthly-rotation-position-count-backtest",
       "window": "Full history",
       "start": "2022-02-07",
-      "end": "2026-09-08",
+      "end": "2026-10-02",
       "initial": 3000,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -1547,16 +1547,16 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 459.1831333900392,
-        "cagrPct": 45.58125033470615,
-        "annualizedVolatilityPct": 33.85656583354658,
-        "sharpe": 1.2846415866425756,
-        "maxDrawdownPct": -35.46348227390948,
+        "totalReturnPct": 481.7626293192052,
+        "cagrPct": 46.04995240106717,
+        "annualizedVolatilityPct": 33.780622267689836,
+        "sharpe": 1.2948479242657298,
+        "maxDrawdownPct": -35.45969676564912,
         "orders": 142,
-        "endingEquity": 16775.494001701176,
+        "endingEquity": 17452.878879576154,
         "winRatePct": 60.869565217391305,
-        "top3Pct": 62.97171026780547,
-        "stopExits": null,
+        "top3Pct": 55.200210302699546,
+        "stopExits": 0,
         "monthsOverFive": 6
       },
       "derivedMetrics": []
@@ -1567,7 +1567,7 @@
       "source": "2026-09-29-monthly-rotation-position-count-backtest",
       "window": "Full history",
       "start": "2022-02-07",
-      "end": "2026-09-08",
+      "end": "2026-10-02",
       "initial": 3000,
       "base": "Normal momentum",
       "factor": "Conservative",
@@ -1587,16 +1587,16 @@
       "selection": "Frozen baskets",
       "extra": "None",
       "metrics": {
-        "totalReturnPct": 365.4653759630811,
-        "cagrPct": 39.8695995312236,
-        "annualizedVolatilityPct": 30.435357525373156,
-        "sharpe": 1.260000160357143,
-        "maxDrawdownPct": -33.1354292918468,
+        "totalReturnPct": 387.1491511866692,
+        "cagrPct": 40.57892446506652,
+        "annualizedVolatilityPct": 30.399745570921983,
+        "sharpe": 1.2763721977606022,
+        "maxDrawdownPct": -33.131902246121484,
         "orders": 187,
-        "endingEquity": 13963.961278892435,
+        "endingEquity": 14614.474535600075,
         "winRatePct": 52.747252747252745,
-        "top3Pct": 63.18873061257332,
-        "stopExits": null,
+        "top3Pct": 54.776801408325134,
+        "stopExits": 0,
         "monthsOverFive": 10
       },
       "derivedMetrics": []
@@ -2178,15 +2178,15 @@
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-weight-maintenance-full-history-no-minimum.md"
     },
     "2026-10-11-monthly-weight-maintenance-lab-replay": {
-      "title": "Three-position monthly: rank effectiveness and weight maintenance",
-      "text": "# Three-position monthly: rank effectiveness and weight maintenance\n\nPeriod: 2026-08-03\u20132026-10-09. Initial capital: $3,000. Research only; no lab changes.\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Orders |\n|---|---:|---:|---:|---:|---:|---:|\n| currentRankWeighted | $4,502.46 | 50.08% | 56.71% | 3.98 | -15.03% | 13 |\n| equalWeightMaintenance | $4,288.25 | 42.94% | 46.00% | 4.23 | -11.79% | 13 |\n| equalWeightRotationOnly | $4,318.19 | 43.94% | 46.43% | 4.28 | -11.79% | 11 |\n\n3 identical review dates and baskets:\n- 2026-08-03: WDC, SNDK, CNC\n- 2026-09-08: MRNA, VLO, WBD\n- 2026-10-05: MRNA, VLO, ON\n\n## Caveats\n\n- Frozen actual lab selection baskets and actual monthly dates; ranking not rerun.\n- Raw closing marks and recorded lab fills used for both variants; no separate dividend credits, fees, spreads, FX or taxes.\n- Equal initial allocations; rotation proceeds split equally among new entrants; continuing quantities unchanged. No 50% trigger or earnings exit.\n- $100 minimum retained for matched configuration; all actual replay orders exceed it.\n- Volatility and Sharpe use daily sample returns, sqrt(252) and zero risk-free rate; short sample is not a reliable forecast.\n- Historic local price bars, particularly WBD, may contain stale or proxy observations; replay inherits lab data limits.\n\n## Does the higher-ranked selection win more?\n\nCompleted scheduled review intervals only, next-review open-to-open total-return proxies. Rank is order among selected stocks, after sector and retention rules. Quarter-block resampling is descriptive, not an independent-sample significance test; adjacent blocks may remain dependent.\n\n| Selected rank | Completed intervals | Average return | Median return | Positive return | Best in basket |\n|---|---:|---:|---:|---:|---:|\n| 1 | 2 | 11.43% | 11.43% | 50.0% | 50.0% |\n| 2 | 2 | 29.52% | 29.52% | 100.0% | 50.0% |\n| 3 | 2 | 8.31% | 8.31% | 100.0% | 0.0% |\n\nMean rank-one minus rank-three return: +3.12 percentage points; rank one beats rank three in 50.0% of completed intervals.\nAverage within-basket preference-return Spearman: 0.000.\nDescriptive quarter-block 95% resampling range for mean rank-one minus rank-three: None; 1 quarter blocks. This is not proof of predictive skill.\n\n### Entry-year checks\n\n| Entry year | Completed intervals | Mean rank-one minus rank-three return |\n|---|---:|---:|\n| 2026 | 2 | +3.12 pp |\n\nRecorded lab equity: $4,502.34; final-close replay difference: $+0.12.\nBaseline reproduces every recorded trade. Equal-rotation checks verify unchanged continuing quantities, equal incoming allocations, zero cash and independent daily NAV reconciliation.\n",
-      "sha256": "cceebc850d40f310a2c8fb2e33882e5b9c8983f05d6d0677b56f85371335e2b4",
+      "title": "October-2 aligned replay: monthly weight maintenance lab replay",
+      "text": "# October-2 aligned replay: monthly weight maintenance lab replay\n\nPeriod: 2026-08-03\u20132026-10-02. Starting capital: $3,000. Research only; no lab changes.\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|\n| currentRankWeighted | $4,090.42 | 36.35% | 56.64% | 3.423 | -15.03% | 9 |\n| equalWeightMaintenance | $4,061.42 | 35.38% | 46.96% | 3.937 | -11.79% | 9 |\n| equalWeightRotationOnly | $4,061.42 | 35.38% | 46.96% | 3.937 | -11.79% | 9 |\n\n## Winner breadth\n\n| Variant | Closed-position win rate | Top-three positive-profit share | Stock-stop exits | Months >5 trades |\n|---|---:|---:|---:|---:|---:|\n| currentRankWeighted | 66.67% | 92.63% | 0 | 1 |\n| equalWeightMaintenance | 66.67% | 86.62% | 0 | 1 |\n| equalWeightRotationOnly | 66.67% | 86.62% | 0 | 1 |\n\n## Method and validation\n\n- Common cutoff 2026-10-02; saved October-9 replay curves and transactions truncated to the exact October-2 session. All returns, volatility, Sharpe, drawdown, CAGR, trade counts and profit attribution recomputed; no relabeling of October-9 metrics. Two monthly reviews and 44 daily observations.\n- Raw cached daily closes and original recorded opening fills retained. Daily cash/quantities/NAV independently reconstructed and reconciled to every saved prefix observation; open-position P&L marked on October 2. No October-5 trades, October-9 terminal overrides or future exits included.\n- Strategy settings are unchanged from the source study. Start date remains August 3, 2026, so these short lab replays must not be ranked directly against full-history tests.\n- Frozen actual lab selection baskets and actual monthly dates; ranking not rerun.\n- Raw closing marks and recorded lab fills used for both variants; no separate dividend credits, fees, spreads, FX or taxes.\n- Equal initial allocations; rotation proceeds split equally among new entrants; continuing quantities unchanged. No 50% trigger or earnings exit.\n- $100 minimum retained for matched configuration; all actual replay orders exceed it.\n- Volatility and Sharpe use daily sample returns, sqrt(252) and zero risk-free rate; short sample is not a reliable forecast.\n- Historic local price bars, particularly WBD, may contain stale or proxy observations; replay inherits lab data limits.\n- Short-sample annualized statistics are not reliable forecasts. Original October-9 reports remain untouched. All active labs unchanged.\n\nSupporting comparator metrics: [data/2026-10-11-monthly-weight-maintenance-lab-replay.json](data/2026-10-11-monthly-weight-maintenance-lab-replay.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\nOriginal reports are retained. Reproduce with `python3 scripts/align_strategy_comparator_cutoff.py`.\n",
+      "sha256": "7fe1f2fb22bab95bf2f2cb3a382440c88f8a29f120083409a1316091fb49c2d1",
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-weight-maintenance-lab-replay.md"
     },
     "2026-10-11-monthly-stock-stop-20-25-comparison": {
-      "title": "Monthly rank-weight: 20% versus 25% single-stock stop",
-      "text": "# Monthly rank-weight: 20% versus 25% single-stock stop\n\nResearch only; no live lab changes.\n\n## fullHistory: 2022-02-07\u20132026-10-02\n\n| Variant | Total return | Annual volatility | Sharpe | Max drawdown | Orders | Stops |\n|---|---:|---:|---:|---:|---:|---:|\n| baseline | 2556.34% | 43.69% | 1.838 | -38.82% | 170 | 0 |\n| stockStop25 | 2729.37% | 42.81% | 1.899 | -35.84% | 174 | 4 |\n| stockStop20 | 2156.57% | 41.54% | 1.828 | -35.70% | 175 | 7 |\n\n### Stop events\n\n| Stock | Signal close | Exit open | Loss from monthly reference | Return after exit to next review |\n|---|---|---|---:|---:|\n| BKR (stockStop25) | 2022-06-24 | 2022-06-27 | -23.21% | -3.74% |\n| DELL (stockStop25) | 2024-08-02 | 2024-08-05 | -33.96% | 0.00% |\n| CVNA (stockStop25) | 2025-01-03 | 2025-01-06 | -28.16% | 0.00% |\n| SNDK (stockStop25) | 2026-07-17 | 2026-07-20 | -22.96% | -17.67% |\n| BKR (stockStop20) | 2022-06-16 | 2022-06-17 | -21.24% | -6.15% |\n| OXY (stockStop20) | 2022-06-17 | 2022-06-21 | -17.23% | 1.99% |\n| CVNA (stockStop20) | 2024-04-15 | 2024-04-16 | -21.31% | 80.35% |\n| DELL (stockStop20) | 2024-07-30 | 2024-07-31 | -16.24% | -21.16% |\n| CVNA (stockStop20) | 2024-12-31 | 2025-01-02 | -23.29% | -6.35% |\n| NRG (stockStop20) | 2025-03-10 | 2025-03-11 | -20.53% | -5.05% |\n| SNDK (stockStop20) | 2026-07-16 | 2026-07-17 | -25.34% | -15.04% |\n\nPortfolio-floor events: {\"baseline\": [], \"stockStop25\": [], \"stockStop20\": []}\n\n## labPeriod: 2026-08-03\u20132026-10-09\n\n| Variant | Total return | Annual volatility | Sharpe | Max drawdown | Orders | Stops |\n|---|---:|---:|---:|---:|---:|---:|\n| baseline | 50.08% | 56.71% | 3.975 | -15.03% | 13 | 0 |\n| stockStop25 | 50.08% | 56.71% | 3.975 | -15.03% | 13 | 0 |\n| stockStop20 | 50.08% | 56.71% | 3.975 | -15.03% | 13 | 0 |\n\n### Stop events\n\n| Stock | Signal close | Exit open | Loss from monthly reference | Return after exit to next review |\n|---|---|---|---:|---:|\n\nPortfolio-floor events: {\"baseline\": [], \"stockStop25\": [], \"stockStop20\": []}\n\n## Method and limitations\n\n- Frozen monthly rank-ordered selections and dates from archived backtest / current lab. No re-ranking after early exits; isolates execution and cash drag, not changed retention-buffer selections.\n- Rank weights 50/33.3/16.7, sector cap max two, $100 minimum normal adjustments. No 50% trigger and no earnings exit.\n- Stop reference resets at each monthly rebalance open. Daily close <=75% (25% stop) or <=80% (20% stop) triggers full exit at next actual session open, regardless of $100 minimum. Hold cash until next monthly review, when the same stock may be selected again.\n- All variants model portfolio floor at 85% of initial capital: daily-close breach sells all at next open and pauses without automatic restart. This is a close-to-next-open model, not an intraday reproduction of live monitoring.\n- Full history uses synthetic dividend-adjusted OHLC and recorded adjusted fills; lab period uses raw bars, recorded fills and October-9 terminal closes independently verified in the October-11 monthly replay. Its ending NAV differs by $0.12 from saved lab due to closing-mark revisions. No fees, spreads, taxes, FX or cash interest.\n- Archive uses current-universe selection: survivorship bias, incomplete historical fundamentals/coverage. This previously examined sample is not independent out-of-sample validation.\n- Volatility and zero-risk-free Sharpe from daily sample returns with sqrt(252); initial capital prepended. Terminal positions marked, not liquidated.\n- Validation: baseline recorded trades reproduced, all daily cash/NAV independently reconstructed, attribution reconciled, thresholds and next-session timing asserted, live labs unchanged.\n",
-      "sha256": "e848e58ad772c4a23ec91398de49389f43cf1efe282a942ac9e7815739dad10c",
+      "title": "October-2 aligned replay: monthly stock stop 20 25 comparison",
+      "text": "# October-2 aligned replay: monthly stock stop 20 25 comparison\n\nPeriod: 2026-08-03\u20132026-10-02. Starting capital: $3,000. Research only; no lab changes.\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|\n| baseline | $4,090.42 | 36.35% | 56.64% | 3.423 | -15.03% | 9 |\n| stockStop25 | $4,090.42 | 36.35% | 56.64% | 3.423 | -15.03% | 9 |\n| stockStop20 | $4,090.42 | 36.35% | 56.64% | 3.423 | -15.03% | 9 |\n\n## Winner breadth\n\n| Variant | Closed-position win rate | Top-three positive-profit share | Stock-stop exits | Months >5 trades |\n|---|---:|---:|---:|---:|---:|\n| baseline | 66.67% | 92.63% | 0 | 1 |\n| stockStop25 | 66.67% | 92.63% | 0 | 1 |\n| stockStop20 | 66.67% | 92.63% | 0 | 1 |\n\n## Full-history results (already October-2 aligned, unchanged)\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|\n| baseline | $79,690.12 | 2556.34% | 43.69% | 1.838 | -38.82% | 170 |\n| stockStop25 | $84,881.07 | 2729.37% | 42.81% | 1.899 | -35.84% | 174 |\n| stockStop20 | $67,697.17 | 2156.57% | 41.54% | 1.828 | -35.70% | 175 |\n\n## Method and validation\n\n- Common cutoff 2026-10-02; saved October-9 replay curves and transactions truncated to the exact October-2 session. All returns, volatility, Sharpe, drawdown, CAGR, trade counts and profit attribution recomputed; no relabeling of October-9 metrics. Two monthly reviews and 44 daily observations.\n- Raw cached daily closes and original recorded opening fills retained. Daily cash/quantities/NAV independently reconstructed and reconciled to every saved prefix observation; open-position P&L marked on October 2. No October-5 trades, October-9 terminal overrides or future exits included.\n- Strategy settings are unchanged from the source study. Start date remains August 3, 2026, so these short lab replays must not be ranked directly against full-history tests.\n- Frozen monthly rank-ordered selections and dates from archived backtest / current lab. No re-ranking after early exits; isolates execution and cash drag, not changed retention-buffer selections.\n- Rank weights 50/33.3/16.7, sector cap max two, $100 minimum normal adjustments. No 50% trigger and no earnings exit.\n- Stop reference resets at each monthly rebalance open. Daily close <=75% (25% stop) or <=80% (20% stop) triggers full exit at next actual session open, regardless of $100 minimum. Hold cash until next monthly review, when the same stock may be selected again.\n- All variants model portfolio floor at 85% of initial capital: daily-close breach sells all at next open and pauses without automatic restart. This is a close-to-next-open model, not an intraday reproduction of live monitoring.\n- Archive uses current-universe selection: survivorship bias, incomplete historical fundamentals/coverage. This previously examined sample is not independent out-of-sample validation.\n- Volatility and zero-risk-free Sharpe from daily sample returns with sqrt(252); initial capital prepended. Terminal positions marked, not liquidated.\n- Validation: baseline recorded trades reproduced, all daily cash/NAV independently reconstructed, attribution reconciled, thresholds and next-session timing asserted, live labs unchanged.\n- Short-sample annualized statistics are not reliable forecasts. Original October-9 reports remain untouched. All active labs unchanged.\n- The unchanged full-history stop comparison also covers February 7, 2022\u2013October 2, 2026, with adjusted historical fills, frozen selections, $100 monthly adjustments, sector count cap two and 85% initial-capital floor. Both evidence windows are included separately.\n\nSupporting comparator metrics: [data/2026-10-11-monthly-stock-stop-20-25-comparison.json](data/2026-10-11-monthly-stock-stop-20-25-comparison.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\nOriginal reports are retained. Reproduce with `python3 scripts/align_strategy_comparator_cutoff.py`.\n",
+      "sha256": "451b8115b8d80c868e645de6d9cc53352c2f4a5af4c918a1488c2b19b044e2dd",
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-stock-stop-20-25-comparison.md"
     },
     "2026-10-11-sector-weekly-stock-stop-20": {
@@ -2214,9 +2214,9 @@
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-monthly.md"
     },
     "2026-10-11-skip-month-conservative-lab-replay": {
-      "title": "Skip-month plus conservative: current monthly lab replay",
-      "text": "# Skip-month plus conservative: current monthly lab replay\n\nPeriod: 2026-08-03\u20132026-10-09. Starting capital: $3,000. No lab changes.\n\n| Strategy | End value | Return | Ann. volatility | Sharpe | Max drawdown | Orders | Stops |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| Current lab, recorded selections | $4,502.46 | 50.08% | 56.71% | 3.975 | -15.03% | 13 | 0 |\n| Normal + conservative, recalculated | $4,380.93 | 46.03% | 57.39% | 3.688 | -15.03% | 11 | 0 |\n| Skip-month + conservative monthly | $5,391.35 | 79.71% | 83.08% | 4.033 | -14.85% | 10 | 0 |\n\n## Selections (rank order: 50%, 33.3%, 16.7%)\n\n| Review | Current lab | Normal recalculated | Skip-month + conservative |\n|---|---|---|---|\n| 2026-08-03 | WDC, SNDK, CNC | WDC, SNDK, CNC | WDC, SNDK, MRNA |\n| 2026-09-08 | MRNA, VLO, WBD | MRNA, VLO, WDC | MRNA, VLO, WDC |\n| 2026-10-05 | MRNA, VLO, ON | MRNA, VLO, WDC | MRNA, VLO, WDC |\n\n## Trades\n\n| Strategy | Date | Side | Stock | Amount | Reason |\n|---|---|---|---|---:|---|\n| Current lab, recorded selections | 2026-08-03 | BUY | WDC | $1,500.00 | weekly_rebalance |\n| Current lab, recorded selections | 2026-08-03 | BUY | SNDK | $1,000.00 | weekly_rebalance |\n| Current lab, recorded selections | 2026-08-03 | BUY | CNC | $500.00 | weekly_rebalance |\n| Current lab, recorded selections | 2026-09-08 | SELL | WDC | $1,371.53 | not_in_target |\n| Current lab, recorded selections | 2026-09-08 | SELL | SNDK | $1,525.58 | not_in_target |\n| Current lab, recorded selections | 2026-09-08 | SELL | CNC | $534.93 | not_in_target |\n| Current lab, recorded selections | 2026-09-08 | BUY | MRNA | $1,716.02 | weekly_rebalance |\n| Current lab, recorded selections | 2026-09-08 | BUY | VLO | $1,144.01 | weekly_rebalance |\n| Current lab, recorded selections | 2026-09-08 | BUY | WBD | $572.01 | weekly_rebalance |\n| Current lab, recorded selections | 2026-10-05 | SELL | WBD | $627.12 | not_in_target |\n| Current lab, recorded selections | 2026-10-05 | SELL | MRNA | $204.97 | weekly_rebalance |\n| Current lab, recorded selections | 2026-10-05 | BUY | VLO | $148.64 | weekly_rebalance |\n| Current lab, recorded selections | 2026-10-05 | BUY | ON | $683.45 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-08-03 | BUY | WDC | $1,500.00 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-08-03 | BUY | SNDK | $1,000.00 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-08-03 | BUY | CNC | $500.00 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-09-08 | SELL | SNDK | $1,525.58 | not_in_target |\n| Normal + conservative, recalculated | 2026-09-08 | SELL | CNC | $534.93 | not_in_target |\n| Normal + conservative, recalculated | 2026-09-08 | BUY | MRNA | $1,716.02 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-09-08 | BUY | VLO | $1,144.01 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-09-08 | SELL | WDC | $799.52 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-10-05 | SELL | MRNA | $261.73 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-10-05 | BUY | VLO | $110.80 | weekly_rebalance |\n| Normal + conservative, recalculated | 2026-10-05 | BUY | WDC | $150.93 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-08-03 | BUY | WDC | $1,500.00 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-08-03 | BUY | SNDK | $1,000.00 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-08-03 | BUY | MRNA | $500.00 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-09-08 | SELL | SNDK | $1,525.58 | not_in_target |\n| Skip-month + conservative monthly | 2026-09-08 | BUY | MRNA | $785.31 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-09-08 | BUY | VLO | $1,407.87 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-09-08 | SELL | WDC | $667.60 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-10-05 | SELL | MRNA | $322.09 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-10-05 | BUY | VLO | $136.36 | weekly_rebalance |\n| Skip-month + conservative monthly | 2026-10-05 | BUY | WDC | $185.74 | weekly_rebalance |\n\n## Method and validation\n\n- August 3\u2013October 9, 2026, $3000 starting capital, same recorded monthly review dates. Research only; all live lab files verified unchanged.\n- Both use monthly rank weights 50/33.333/16.667, sector count cap 2, retention buffer 1, $100 ordinary adjustment minimum, daily-close-confirmed 25% stock stop with next-session-open exit, fixed 85% initial-capital floor. No earnings exit or 50% concentration trigger.\n- Current uses recorded live-lab baskets. FreshCurrent and skipConservative recompute normal versus skip-month momentum using identical cached histories, top-300 liquidity pool and SEC negative-asset-growth ranks. This third control separates signal changes from differences between recorded live selections and refreshed historical inputs. All pool stocks have skip-month history in this period; SEC filing dates strictly precede signal dates.\n- Raw historical execution bars, baseline recorded fills and previously verified terminal closes; other stocks use cached daily opens/closes. Momentum uses adjusted closes as production does. All signals use prior-session data; retention is based on each replay portfolio.\n- Current baseline reproduces every prior verified trade, value and Sharpe. Both independently reconcile daily cash/NAV, position quantities and episode P&L. Stops use the production execution path.\n- Only three monthly reviews, no out-of-sample validation or statistical significance. No fees/spread/slippage/FX/taxes or interest. Current cached universe, not a historical-membership rerun; the result does not establish future performance.\n\nSupporting comparator metrics: [data/2026-10-11-skip-month-conservative-lab-replay.json](data/2026-10-11-skip-month-conservative-lab-replay.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\n",
-      "sha256": "cf215e846a5b966d4378e9086b657a6afd9a1e091ac49f07be87e9c7b76a02e2",
+      "title": "October-2 aligned replay: skip month conservative lab replay",
+      "text": "# October-2 aligned replay: skip month conservative lab replay\n\nPeriod: 2026-08-03\u20132026-10-02. Starting capital: $3,000. Research only; no lab changes.\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|\n| current | $4,090.42 | 36.35% | 56.64% | 3.423 | -15.03% | 9 |\n| freshCurrent | $3,958.96 | 31.97% | 56.05% | 3.118 | -15.03% | 8 |\n| skipConservative | $4,872.05 | 62.40% | 84.87% | 3.678 | -14.85% | 7 |\n\n## Winner breadth\n\n| Variant | Closed-position win rate | Top-three positive-profit share | Stock-stop exits | Months >5 trades |\n|---|---:|---:|---:|---:|---:|\n| current | 66.67% | 92.63% | 0 | 1 |\n| freshCurrent | 100.00% | 97.00% | 0 | 0 |\n| skipConservative | 100.00% | 100.00% | 0 | 0 |\n\n## Method and validation\n\n- Common cutoff 2026-10-02; saved October-9 replay curves and transactions truncated to the exact October-2 session. All returns, volatility, Sharpe, drawdown, CAGR, trade counts and profit attribution recomputed; no relabeling of October-9 metrics. Two monthly reviews and 44 daily observations.\n- Raw cached daily closes and original recorded opening fills retained. Daily cash/quantities/NAV independently reconstructed and reconciled to every saved prefix observation; open-position P&L marked on October 2. No October-5 trades, October-9 terminal overrides or future exits included.\n- Strategy settings are unchanged from the source study. Start date remains August 3, 2026, so these short lab replays must not be ranked directly against full-history tests.\n- Both use monthly rank weights 50/33.333/16.667, sector count cap 2, retention buffer 1, $100 ordinary adjustment minimum, daily-close-confirmed 25% stock stop with next-session-open exit, fixed 85% initial-capital floor. No earnings exit or 50% concentration trigger.\n- Current uses recorded live-lab baskets. FreshCurrent and skipConservative recompute normal versus skip-month momentum using identical cached histories, top-300 liquidity pool and SEC negative-asset-growth ranks. This third control separates signal changes from differences between recorded live selections and refreshed historical inputs. All pool stocks have skip-month history in this period; SEC filing dates strictly precede signal dates.\n- Short-sample annualized statistics are not reliable forecasts. Original October-9 reports remain untouched. All active labs unchanged.\n\nSupporting comparator metrics: [data/2026-10-11-skip-month-conservative-lab-replay.json](data/2026-10-11-skip-month-conservative-lab-replay.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\nOriginal reports are retained. Reproduce with `python3 scripts/align_strategy_comparator_cutoff.py`.\n",
+      "sha256": "2d3ab72daf4f1e0f722fac1697693986eac4b17c5a0fcaebb6e61144c19f08cf",
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-lab-replay.md"
     },
     "2026-10-11-skip-month-conservative-monthly-40-40-20": {
@@ -2232,15 +2232,15 @@
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-40-40-20.md"
     },
     "2026-10-11-monthly-40-40-20-lab-replay": {
-      "title": "Monthly rank weights: 40/40/20 versus current",
-      "text": "# Monthly rank weights: 40/40/20 versus current\n\nPeriod: 2026-08-03\u20132026-10-09. Initial capital: $3,000. Both include 25% stock stop. No lab changes.\n\n| Weights | Ending value | Total return | Ann. volatility | Sharpe | Max drawdown | Orders |\n|---|---:|---:|---:|---:|---:|---:|\n| 50/33.3/16.7 | $4,502.46 | 50.08% | 56.71% | 3.975 | -15.03% | 13 |\n| 40/40/20 | $4,525.30 | 50.84% | 53.69% | 4.217 | -14.11% | 13 |\n\n40/40/20 ends $22.85 higher (+0.76 percentage points of return), with lower volatility and drawdown in this short replay. Both process three reviews and have no stop or capital-floor exit. This modest advantage does not override the mixed full-history comparison.\n\nRecorded baskets: August 3 WDC/SNDK/CNC; September 8 MRNA/VLO/WBD; October 5 MRNA/VLO/ON. Raw fills and terminal marks are identical between weight variants.\n\n## Calendar-year results\n\n| Year | Current weights | 40/40/20 |\n|---|---:|---:|\n| 2026 (partial) | 50.08% | 50.84% |\n\n## Concentration\n\n| Weights | Maximum stock weight | Top-three positive-profit share | Stop exits |\n|---|---:|---:|---:|\n| current | 57.17% | 94.67% | 0 |\n| topPair | 51.14% | 93.49% | 0 |\n\n## Method and validation\n\n- Current monthly lab replay 2026-08-03 through 2026-10-09, initial capital $3000.00, same three recorded monthly selections. Only weights change: 50/33.333/16.667 versus 40/40/20.\n- Raw historical bars, recorded live-lab opening fills, and previously independently verified October-9 terminal closes. Baseline every trade and risk metrics reproduce the prior lab replay; terminal NAV differs from saved dashboard by $0.12 due to revised closes.\n- Production monthly full weight maintenance, sector count cap two, $100 minimum ordinary adjustments, existing 25% daily-close-to-next-session-open stock stop, 85%-initial-capital close-to-next-open floor. No earnings exits or 50% concentration trigger.\n- Stops do not rerank frozen selections. $100 minimum may leave small cash or weight deviations. No fees, spread, slippage, FX, taxes or cash interest.\n- First allocations and all daily cash/NAV independently reconstructed; attribution reconciled and active lab files unchanged. No production configuration changes.\n- Daily sample-return volatility/Sharpe annualized with sqrt(252), zero risk-free rate. Just three monthly reviews; annualized statistics and CAGR from this short sample are not reliable expectations.\n\nSupporting results: [data/2026-10-11-monthly-40-40-20-lab-replay.json](data/2026-10-11-monthly-40-40-20-lab-replay.json).\n",
-      "sha256": "892f2de2e119ec027ce2aed9b63e2cf441cd94d22be8fbebfa4bdd5b4cae8260",
+      "title": "October-2 aligned replay: monthly 40 40 20 lab replay",
+      "text": "# October-2 aligned replay: monthly 40 40 20 lab replay\n\nPeriod: 2026-08-03\u20132026-10-02. Starting capital: $3,000. Research only; no lab changes.\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|\n| current | $4,090.42 | 36.35% | 56.64% | 3.423 | -15.03% | 9 |\n| topPair | $4,174.57 | 39.15% | 54.62% | 3.744 | -14.11% | 9 |\n\n## Winner breadth\n\n| Variant | Closed-position win rate | Top-three positive-profit share | Stock-stop exits | Months >5 trades |\n|---|---:|---:|---:|---:|---:|\n| current | 66.67% | 92.63% | 0 | 1 |\n| topPair | 66.67% | 91.35% | 0 | 1 |\n\n## Method and validation\n\n- Common cutoff 2026-10-02; saved October-9 replay curves and transactions truncated to the exact October-2 session. All returns, volatility, Sharpe, drawdown, CAGR, trade counts and profit attribution recomputed; no relabeling of October-9 metrics. Two monthly reviews and 44 daily observations.\n- Raw cached daily closes and original recorded opening fills retained. Daily cash/quantities/NAV independently reconstructed and reconciled to every saved prefix observation; open-position P&L marked on October 2. No October-5 trades, October-9 terminal overrides or future exits included.\n- Strategy settings are unchanged from the source study. Start date remains August 3, 2026, so these short lab replays must not be ranked directly against full-history tests.\n- Current monthly lab replay 2026-08-03 through 2026-10-02, initial capital $3000.00, same two recorded monthly selections. Only weights change: 50/33.333/16.667 versus 40/40/20.\n- Production monthly full weight maintenance, sector count cap two, $100 minimum ordinary adjustments, existing 25% daily-close-to-next-session-open stock stop, 85%-initial-capital close-to-next-open floor. No earnings exits or 50% concentration trigger.\n- Stops do not rerank frozen selections. $100 minimum may leave small cash or weight deviations. No fees, spread, slippage, FX, taxes or cash interest.\n- First allocations and all daily cash/NAV independently reconstructed; attribution reconciled and active lab files unchanged. No production configuration changes.\n- Short-sample annualized statistics are not reliable forecasts. Original October-9 reports remain untouched. All active labs unchanged.\n\nSupporting comparator metrics: [data/2026-10-11-monthly-40-40-20-lab-replay.json](data/2026-10-11-monthly-40-40-20-lab-replay.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\nOriginal reports are retained. Reproduce with `python3 scripts/align_strategy_comparator_cutoff.py`.\n",
+      "sha256": "b46801863412e945d95c475895dde6ac69aed98ca7ed29e55f1ebfb766c63128",
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-40-40-20-lab-replay.md"
     },
     "2026-09-29-monthly-rotation-position-count-backtest": {
-      "title": "Monthly rotation-only position-count comparison",
-      "text": "# Monthly rotation-only position-count comparison\n\nPeriod: **7 February 2022\u20138 September 2026**. Initial capital: **$3,000**.\n\nThis isolates position count while holding the other rules constant: production conservative-momentum ranking, dated S&P membership, top 300 by trailing dollar liquidity, maximum two positions per sector, retain-through-one-extra-rank buffer, monthly review, rotation-only execution, no minimum-order filter, and no earnings exit.\n\n## Results\n\n| Positions | Ending value | Total return | CAGR | Ann. volatility | Sharpe | Max drawdown | Orders |\n|---:|---:|---:|---:|---:|---:|---:|---:|\n| 3 | **$18,066** | **502.2%** | **48.0%** | 37.5% | 1.24 | -40.4% | **97** |\n| 4 | $16,775 | 459.2% | 45.6% | 33.9% | **1.28** | -35.5% | 142 |\n| 5 | $13,964 | 365.5% | 39.9% | **30.4%** | 1.26 | **-33.1%** | 187 |\n\n## Marginal trade-off\n\n- Moving from three to four positions costs 2.37 percentage points of CAGR, while reducing volatility by 3.60 points and improving maximum drawdown by 4.97 points.\n- Moving from four to five costs another 5.71 points of CAGR, while reducing volatility by 3.42 points and improving drawdown by only 2.33 points.\n- Four positions has the highest Sharpe. The fifth position adds less downside protection while diluting the stronger-ranked holdings more heavily.\n\n## Execution\n\n| Positions | Orders | Months above five orders | Orders above five-trade allowance |\n|---:|---:|---:|---:|\n| 3 | 97 | 1 | 1 |\n| 4 | 142 | 6 | 8 |\n| 5 | 187 | 10 | 20 |\n\nAt a \u20ac1,200 starting balance, the initial allocations would be \u20ac400, \u20ac300, and \u20ac240 per position respectively. Rotation-only avoids weight-maintenance trades, so no minimum-order rule is needed.\n\n## Conclusion\n\n**Four positions is the best balance in this sample.** It retains most of the three-position return, materially reduces volatility and drawdown, and has the highest risk-adjusted return. Five positions is preferable only if minimizing volatility matters more than the additional loss of return and higher transaction count.\n\nThe replay still has survivorship bias from missing former constituents, uses current rules retrospectively and locally available filing history, and excludes fees, spreads, slippage, FX, and taxes.\n\nStructured results: [data/2026-09-29-monthly-rotation-position-count-backtest.json](data/2026-09-29-monthly-rotation-position-count-backtest.json).\n",
-      "sha256": "3a7f6b627a2c23dba4ec539e906fce559fd73a777adfda42d0825750c2b3a049",
+      "title": "Monthly rotation-only position count: October-2 aligned backtest",
+      "text": "# Monthly rotation-only position count: October-2 aligned backtest\n\nPeriod: 2022-02-07\u20132026-10-02. Starting capital: $3,000. Research only; no lab changes.\n\n| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|\n| 3 | $19,250.57 | 541.69% | 37.34% | 1.262 | -40.43% | 97 |\n| 4 | $17,452.88 | 481.76% | 33.78% | 1.295 | -35.46% | 142 |\n| 5 | $14,614.47 | 387.15% | 30.40% | 1.276 | -33.13% | 187 |\n\n## Winner breadth\n\n| Variant | Closed-position win rate | Top-three positive-profit share | Stock-stop exits | Months >5 trades |\n|---|---:|---:|---:|---:|---:|\n| 3 | 61.70% | 59.63% | 0 | 1 |\n| 4 | 60.87% | 55.20% | 0 | 6 |\n| 5 | 52.75% | 54.78% | 0 | 10 |\n\n## Method and validation\n\n- Same 3/4/5-position conservative momentum strategy, dated-membership selector, monthly first weekly review, top-300 liquidity, sector cap two, retention buffer one, equal entry weights and rotation only. No earnings exits, minimum order, stock stop, capital floor or concentration trigger.\n- Rerun through October 2 using adjusted cached OHLC. The final scheduled monthly review is September 8 and the next is October 5: the extension adds 18 daily valuations, not extra trades or membership decisions. September-8 membership snapshot covers every selection date; no post-snapshot membership assumptions are needed.\n- Original September-8 order counts reproduced and every three-position basket matched the original archived replay. Refreshed-cache terminal values and Sharpe agree within 0.5% and 0.005 respectively; exact differences recorded in supporting JSON, not attributed to the cutoff extension. Continued positions remain untouched; rotations fully funded with zero residual cash. Independent daily NAV and episode attribution reconciled.\n- Historical membership filters cached current-universe stocks; missing former constituents, current sector labels and incomplete local filing history leave survivorship and availability biases. No fees, spreads, slippage, FX or tax. Dated-membership results are not apples-to-apples with current-universe studies even though the cutoff matches.\n- Original September report remains unchanged. All active labs unchanged. Sharpe uses sample daily arithmetic returns, sqrt(252), zero risk-free rate. Previously examined in-sample period, not independent validation.\n\nSupporting comparator metrics: [data/2026-09-29-monthly-rotation-position-count-backtest.json](data/2026-09-29-monthly-rotation-position-count-backtest.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\nOriginal reports are retained. Reproduce with `python3 scripts/align_strategy_comparator_cutoff.py`.\n",
+      "sha256": "e74ab82175c684b9c03e56e04062b6013ce16aec90df45fafd4980f2c4f6da31",
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-09-29-monthly-rotation-position-count-backtest.md"
     },
     "2026-10-05-sector-weekly-rotation-only-baseline": {
@@ -2268,11 +2268,11 @@
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-weight-maintenance-full-history-no-minimum.md"
     },
     {
-      "title": "Three-position monthly: rank effectiveness and weight maintenance",
+      "title": "October-2 aligned replay: monthly weight maintenance lab replay",
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-weight-maintenance-lab-replay.md"
     },
     {
-      "title": "Monthly rank-weight: 20% versus 25% single-stock stop",
+      "title": "October-2 aligned replay: monthly stock stop 20 25 comparison",
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-stock-stop-20-25-comparison.md"
     },
     {
@@ -2292,7 +2292,7 @@
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-monthly.md"
     },
     {
-      "title": "Skip-month plus conservative: current monthly lab replay",
+      "title": "October-2 aligned replay: skip month conservative lab replay",
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-lab-replay.md"
     },
     {
@@ -2304,11 +2304,11 @@
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-40-40-20.md"
     },
     {
-      "title": "Monthly rank weights: 40/40/20 versus current",
+      "title": "October-2 aligned replay: monthly 40 40 20 lab replay",
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-monthly-40-40-20-lab-replay.md"
     },
     {
-      "title": "Monthly rotation-only position-count comparison",
+      "title": "Monthly rotation-only position count: October-2 aligned backtest",
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-09-29-monthly-rotation-position-count-backtest.md"
     },
     {

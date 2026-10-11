@@ -1,37 +1,28 @@
-# Monthly rotation-only position-count comparison
+# Monthly rotation-only position count: October-2 aligned backtest
 
-Period: **7 February 2022–8 September 2026**. Initial capital: **$3,000**.
+Period: 2022-02-07–2026-10-02. Starting capital: $3,000. Research only; no lab changes.
 
-This isolates position count while holding the other rules constant: production conservative-momentum ranking, dated S&P membership, top 300 by trailing dollar liquidity, maximum two positions per sector, retain-through-one-extra-rank buffer, monthly review, rotation-only execution, no minimum-order filter, and no earnings exit.
+| Variant | Ending value | Return | Annual volatility | Sharpe | Max drawdown | Trades |
+|---|---:|---:|---:|---:|---:|---:|
+| 3 | $19,250.57 | 541.69% | 37.34% | 1.262 | -40.43% | 97 |
+| 4 | $17,452.88 | 481.76% | 33.78% | 1.295 | -35.46% | 142 |
+| 5 | $14,614.47 | 387.15% | 30.40% | 1.276 | -33.13% | 187 |
 
-## Results
+## Winner breadth
 
-| Positions | Ending value | Total return | CAGR | Ann. volatility | Sharpe | Max drawdown | Orders |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| 3 | **$18,066** | **502.2%** | **48.0%** | 37.5% | 1.24 | -40.4% | **97** |
-| 4 | $16,775 | 459.2% | 45.6% | 33.9% | **1.28** | -35.5% | 142 |
-| 5 | $13,964 | 365.5% | 39.9% | **30.4%** | 1.26 | **-33.1%** | 187 |
+| Variant | Closed-position win rate | Top-three positive-profit share | Stock-stop exits | Months >5 trades |
+|---|---:|---:|---:|---:|---:|
+| 3 | 61.70% | 59.63% | 0 | 1 |
+| 4 | 60.87% | 55.20% | 0 | 6 |
+| 5 | 52.75% | 54.78% | 0 | 10 |
 
-## Marginal trade-off
+## Method and validation
 
-- Moving from three to four positions costs 2.37 percentage points of CAGR, while reducing volatility by 3.60 points and improving maximum drawdown by 4.97 points.
-- Moving from four to five costs another 5.71 points of CAGR, while reducing volatility by 3.42 points and improving drawdown by only 2.33 points.
-- Four positions has the highest Sharpe. The fifth position adds less downside protection while diluting the stronger-ranked holdings more heavily.
+- Same 3/4/5-position conservative momentum strategy, dated-membership selector, monthly first weekly review, top-300 liquidity, sector cap two, retention buffer one, equal entry weights and rotation only. No earnings exits, minimum order, stock stop, capital floor or concentration trigger.
+- Rerun through October 2 using adjusted cached OHLC. The final scheduled monthly review is September 8 and the next is October 5: the extension adds 18 daily valuations, not extra trades or membership decisions. September-8 membership snapshot covers every selection date; no post-snapshot membership assumptions are needed.
+- Original September-8 order counts reproduced and every three-position basket matched the original archived replay. Refreshed-cache terminal values and Sharpe agree within 0.5% and 0.005 respectively; exact differences recorded in supporting JSON, not attributed to the cutoff extension. Continued positions remain untouched; rotations fully funded with zero residual cash. Independent daily NAV and episode attribution reconciled.
+- Historical membership filters cached current-universe stocks; missing former constituents, current sector labels and incomplete local filing history leave survivorship and availability biases. No fees, spreads, slippage, FX or tax. Dated-membership results are not apples-to-apples with current-universe studies even though the cutoff matches.
+- Original September report remains unchanged. All active labs unchanged. Sharpe uses sample daily arithmetic returns, sqrt(252), zero risk-free rate. Previously examined in-sample period, not independent validation.
 
-## Execution
-
-| Positions | Orders | Months above five orders | Orders above five-trade allowance |
-|---:|---:|---:|---:|
-| 3 | 97 | 1 | 1 |
-| 4 | 142 | 6 | 8 |
-| 5 | 187 | 10 | 20 |
-
-At a €1,200 starting balance, the initial allocations would be €400, €300, and €240 per position respectively. Rotation-only avoids weight-maintenance trades, so no minimum-order rule is needed.
-
-## Conclusion
-
-**Four positions is the best balance in this sample.** It retains most of the three-position return, materially reduces volatility and drawdown, and has the highest risk-adjusted return. Five positions is preferable only if minimizing volatility matters more than the additional loss of return and higher transaction count.
-
-The replay still has survivorship bias from missing former constituents, uses current rules retrospectively and locally available filing history, and excludes fees, spreads, slippage, FX, and taxes.
-
-Structured results: [data/2026-09-29-monthly-rotation-position-count-backtest.json](data/2026-09-29-monthly-rotation-position-count-backtest.json).
+Supporting comparator metrics: [data/2026-09-29-monthly-rotation-position-count-backtest.json](data/2026-09-29-monthly-rotation-position-count-backtest.json). This public extract contains saved rules and metrics, not raw simulation ledgers.
+Original reports are retained. Reproduce with `python3 scripts/align_strategy_comparator_cutoff.py`.
