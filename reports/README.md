@@ -4,7 +4,7 @@ Interactive version: download [index.html](../index.html) and open it in a brows
 
 To host on GitHub Pages, publish this standalone HTML file through your preferred Pages setup. The published site is linked from the repository README.
 
-Catalog snapshot: October 11, 2026 · 55 saved runs · 15 sources. No new tests or live-lab changes.
+Catalog snapshot: October 11, 2026 · 52 saved runs · 14 sources. No new tests or live-lab changes.
 
 Only tested combinations are selectable. Changing a rule may choose the nearest tested configuration; read the complete rules beneath each selection. Missing metrics remain blank. Dates, data eligibility, prices, protection rules and trade definitions may differ.
 
@@ -47,9 +47,6 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 | Skip-month + conservative · recalculated | 2026-08-03–2026-10-09 | 79.71% | 4.033 | 83.08% | -14.85% | 10 (raw) |
 | Normal conservative · 40/40/20 | 2022-02-07–2026-10-02 | 2611.81% | 1.926 | 41.44% | -36.41% | 172 (raw) |
 | Normal conservative · 40/40/20 | 2026-08-03–2026-10-09 | 50.84% | 4.217 | 53.69% | -14.11% | 13 (raw) |
-| 100% monthly · netted trades | 2022-02-07–2026-10-02 | 2729.37% | 1.899 | 42.81% | -35.84% | 172 (netted) |
-| 80% monthly / 20% cash | 2022-02-07–2026-10-02 | 1468.53% | 1.893 | 34.54% | -29.89% | 167 (netted) |
-| 80% monthly / 20% different-stock weekly slot | 2022-02-07–2026-10-02 | 2001.69% | 2.015 | 35.82% | -29.52% | 240 (netted) |
 | 3-position monthly rotation | 2022-02-07–2026-09-08 | 502.22% | 1.239 | 37.45% | -40.43% | 97 (raw) |
 | 4-position monthly rotation | 2022-02-07–2026-09-08 | 459.18% | 1.285 | 33.86% | -35.46% | 142 (raw) |
 | 5-position monthly rotation | 2022-02-07–2026-09-08 | 365.47% | 1.260 | 30.44% | -33.14% | 187 (raw) |
@@ -81,7 +78,6 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 - [Skip-month plus conservative: current monthly lab replay](2026-10-11-skip-month-conservative-lab-replay.md)
 - [Monthly rank weights: 40/40/20 versus current](2026-10-11-monthly-40-40-20.md)
 - [Monthly rank weights: 40/40/20 versus current](2026-10-11-monthly-40-40-20-lab-replay.md)
-- [Monthly core plus different-selection weekly slot](2026-10-11-monthly-weekly-hybrid.md)
 - [Monthly rotation-only position-count comparison](2026-09-29-monthly-rotation-position-count-backtest.md)
 - [2026-10-05-sector-weekly-rotation-only-baseline](2026-10-05-sector-weekly-rotation-only-baseline.md)
 - [Sector weekly: 50% position-trigger backtest](2026-10-05-sector-weekly-50pct-trigger-backtest.md)
