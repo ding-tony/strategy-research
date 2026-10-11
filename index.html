@@ -1419,6 +1419,86 @@
       "derivedMetrics": []
     },
     {
+      "id": "2026-10-11-skip-month-conservative-monthly-40-40-20:normalMatched40",
+      "label": "Normal conservative \u00b7 40/40/20 \u00b7 matched pool",
+      "source": "2026-10-11-skip-month-conservative-monthly-40-40-20",
+      "window": "Full history",
+      "start": "2022-02-07",
+      "end": "2026-10-02",
+      "initial": 3000.0,
+      "base": "Normal momentum",
+      "factor": "Conservative",
+      "frequency": "Monthly",
+      "weight": "40/40/20",
+      "rebalance": "Weight maintenance",
+      "positions": 3,
+      "sector": "Max 2",
+      "stop": "25%",
+      "minimum": "$100",
+      "concentration": "None",
+      "floor": "85% initial capital",
+      "earnings": "No exit",
+      "basis": "Adjusted prices",
+      "pool": "Common skip-history eligibility",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 2490.6823528894433,
+        "cagrPct": 101.38813393933432,
+        "annualizedVolatilityPct": 41.11242784376601,
+        "sharpe": 1.9141091362302685,
+        "maxDrawdownPct": -36.40943967585507,
+        "orders": 173,
+        "endingEquity": 77720.47058668331,
+        "winRatePct": 61.224489795918366,
+        "top3Pct": 66.96748187467401,
+        "stopExits": 4,
+        "monthsOverFive": 1
+      },
+      "derivedMetrics": []
+    },
+    {
+      "id": "2026-10-11-skip-month-conservative-monthly-40-40-20:skip40",
+      "label": "Skip-month + conservative \u00b7 40/40/20",
+      "source": "2026-10-11-skip-month-conservative-monthly-40-40-20",
+      "window": "Full history",
+      "start": "2022-02-07",
+      "end": "2026-10-02",
+      "initial": 3000.0,
+      "base": "Skip-month",
+      "factor": "Conservative",
+      "frequency": "Monthly",
+      "weight": "40/40/20",
+      "rebalance": "Weight maintenance",
+      "positions": 3,
+      "sector": "Max 2",
+      "stop": "25%",
+      "minimum": "$100",
+      "concentration": "None",
+      "floor": "85% initial capital",
+      "earnings": "No exit",
+      "basis": "Adjusted prices",
+      "pool": "Common skip-history eligibility",
+      "orderBasis": "Raw",
+      "selection": "Frozen baskets",
+      "extra": "None",
+      "metrics": {
+        "totalReturnPct": 3010.723358645429,
+        "cagrPct": 109.47078140058557,
+        "annualizedVolatilityPct": 43.626561468352506,
+        "sharpe": 1.915091377712359,
+        "maxDrawdownPct": -36.37906075116438,
+        "orders": 173,
+        "endingEquity": 93321.70075936288,
+        "winRatePct": 62.7906976744186,
+        "top3Pct": 71.59658807230299,
+        "stopExits": 4,
+        "monthsOverFive": 2
+      },
+      "derivedMetrics": []
+    },
+    {
       "id": "2026-10-11-monthly-40-40-20:topPair",
       "label": "Normal conservative \u00b7 40/40/20",
       "source": "2026-10-11-monthly-40-40-20",
@@ -2236,6 +2316,12 @@
       "sha256": "cf215e846a5b966d4378e9086b657a6afd9a1e091ac49f07be87e9c7b76a02e2",
       "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-lab-replay.md"
     },
+    "2026-10-11-skip-month-conservative-monthly-40-40-20": {
+      "title": "Skip-month conservative monthly: 40/40/20 weights",
+      "text": "# Skip-month conservative monthly: 40/40/20 weights\n\nPeriod: 2022-02-07\u20132026-10-02. Initial capital: $3,000. Research only; no lab changes.\n\nSkip-month ends with 14.71% more wealth than the saved normal 40/40/20 reference, but volatility rises 2.19 percentage points and Sharpe changes by -0.011. Drawdown is almost unchanged. It is a higher-return alternative, not a new highest-Sharpe result.\n\nOn exactly matched eligibility, skip-month ends with 20.07% more wealth; Sharpe changes only +0.001. Return improves without a meaningful observed risk-adjusted advantage. No statistical significance is established.\n\n| Strategy | Ending value | Total return | CAGR | Volatility | Sharpe | Max drawdown | Trades |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| Normal conservative 40/40/20 (reference) | $81,354.37 | 2611.81% | 103.38% | 41.44% | 1.926 | -36.41% | 172 |\n| Normal conservative 40/40/20 (matched eligibility) | $77,720.47 | 2490.68% | 101.39% | 41.11% | 1.914 | -36.41% | 173 |\n| Skip-month conservative 40/40/20 | $93,321.70 | 3010.72% | 109.47% | 43.63% | 1.915 | -36.38% | 173 |\n| Normal conservative 50/33/17 (baseline check) | $84,881.07 | 2729.37% | 105.24% | 42.81% | 1.899 | -35.84% | 174 |\n| Skip-month conservative 50/33/17 (baseline check) | $93,765.38 | 3025.51% | 109.68% | 44.00% | 1.906 | -35.95% | 180 |\n\n## Breadth and execution\n\n| Strategy | Closed-position win rate | Top-three positive-profit share | Stop exits | Months >5 trades |\n|---|---:|---:|---:|---:|\n| Normal conservative 40/40/20 (reference) | 62.50% | 67.20% | 4 | 1 |\n| Normal conservative 40/40/20 (matched eligibility) | 61.22% | 66.97% | 4 | 1 |\n| Skip-month conservative 40/40/20 | 62.79% | 71.60% | 4 | 2 |\n| Normal conservative 50/33/17 (baseline check) | 62.50% | 68.15% | 4 | 1 |\n| Skip-month conservative 50/33/17 (baseline check) | 60.47% | 73.26% | 4 | 2 |\n\n## Calendar-year returns (2022 and 2026 partial)\n\n| Strategy | 2022 | 2023 | 2024 | 2025 | 2026 |\n|---|---:|---:|---:|---:|---:|\n| Normal conservative 40/40/20 (reference) | 2.80% | 40.83% | 340.98% | 47.98% | 187.06% |\n| Normal conservative 40/40/20 (matched eligibility) | 2.80% | 40.83% | 340.98% | 47.98% | 174.23% |\n| Skip-month conservative 40/40/20 | 10.19% | 25.34% | 335.20% | 48.32% | 248.92% |\n\n## Method and validation\n\n- 2022-02-07 through 2026-10-02; $3,000 initial capital; three stocks; monthly full weight maintenance; 40/40/20 entry and monthly target weights; sector count cap two; retention buffer one; $100 ordinary adjustment minimum; 25% daily-close stock stop, next-session open exit; 85%-initial-capital close-to-next-open portfolio floor. No earnings exits or 50% concentration trigger.\n- Reuse validated monthly conservative selection schedules and prior-session ranking audit from 2026-10-11-skip-month-conservative-monthly. Score adds ascending momentum rank to ascending negative asset-growth rank using SEC facts filed before signal date. Skip-month uses a 252-session return ending 21 sessions before signal. Normal uses the return ending at signal.\n- normal40 exactly reproduces the highest-Sharpe saved strategy. normalMatched40 and skip40 share eligibility and differ only in momentum input. Seven reviews exclude otherwise eligible stocks with insufficient cached skip-month history; not all exclusions are recent listings.\n- Monthly dates are the archived first weekly review session in each month, not always the exact first trading day. Frozen no-stop selection schedules preserve the existing reference methodology; stocks are not dynamically reranked after stops. Upgrade to dynamic retention before deployment.\n- Dividend-adjusted cached OHLC with the same archived monthly fill overrides applied to all variants; SATS/ECHO history stitched June 24, 2026. Current cached universe and sector labels: survivorship and incomplete historical fundamental coverage biases. No costs, slippage, FX, taxes or cash interest.\n- Sharpe and volatility use sample daily arithmetic returns including initial capital, zero risk-free rate, sqrt(252). Three archived baselines reproduced trade-for-trade. Independent daily cash/NAV and position-episode profit reconciled; initial allocations and stop timing checked. All live lab files unchanged.\n- In-sample weight/momentum sensitivity, not independent validation or evidence of statistical significance. Calendar years 2022 and 2026 are partial.\n\nValidation: share with caveats. Historical selection and coverage limitations prevent a deployment-grade or causal claim.\n\nSupporting comparator metrics: [data/2026-10-11-skip-month-conservative-monthly-40-40-20.json](data/2026-10-11-skip-month-conservative-monthly-40-40-20.json). This public extract contains saved rules and metrics, not raw simulation ledgers.\nReproduce with `python3 scripts/backtest_skip_month_conservative_40_40_20.py` using the local cached research inputs.\n",
+      "sha256": "0b8309a08a0ba8321ba469065274a435c5b51878d12a84f01d629cd08ad9ae8e",
+      "github": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-monthly-40-40-20.md"
+    },
     "2026-10-11-monthly-40-40-20": {
       "title": "Monthly rank weights: 40/40/20 versus current",
       "text": "# Monthly rank weights: 40/40/20 versus current\n\nPeriod: 2022-02-07\u20132026-10-02. Initial capital: $3,000. Both include 25% stock stop. No lab changes.\n\n| Weights | Ending value | Total return | CAGR | Ann. volatility | Sharpe | Max drawdown | Orders |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| 50/33.3/16.7 | $84,881.07 | 2729.37% | 105.24% | 42.81% | 1.899 | -35.84% | 174 |\n| 40/40/20 | $81,354.37 | 2611.81% | 103.38% | 41.44% | 1.926 | -36.41% | 172 |\n\n40/40/20 ends with 4.15% less wealth. It improves Sharpe by 0.027 and lowers annualized volatility by 1.38 percentage points, but maximum drawdown is 0.57 points worse. It has no consistent return advantage across the five calendar-year slices. This supports treating it as a modest weighting sensitivity, not a demonstrated upgrade.\n\n## Calendar-year results\n\n| Year | Current weights | 40/40/20 |\n|---|---:|---:|\n| 2022 (partial) | 6.79% | 2.80% |\n| 2023 | 39.79% | 40.83% |\n| 2024 | 325.33% | 340.98% |\n| 2025 | 48.03% | 47.98% |\n| 2026 (partial) | 201.01% | 187.06% |\n\n## Concentration\n\n| Weights | Maximum stock weight | Top-three positive-profit share | Stop exits |\n|---|---:|---:|---:|\n| current | 60.29% | 68.15% | 4 |\n| topPair | 55.67% | 67.20% | 4 |\n\n## Method and validation\n\n- 2022-02-07 through 2026-10-02, $3000, 3 stocks, monthly full weight maintenance, sector count cap 2, retention buffer 1, $100 ordinary adjustments minimum, 25% stock stop, 85%-initial-capital portfolio floor. No earnings exits or 50% concentration trigger.\n- Conservative investment-plus-momentum monthly ranking only; this is not the skip-month strategy.\n- Monthly dates are the archived first weekly review session in each month, not always the exact first trading day. Sector cap limits stock count, not sector dollar weight.\n- Paired stop comparisons freeze each no-stop target schedule, matching the earlier monthly stop study. This isolates execution; it does not rerank retention after stop exits.\n- 25% close-confirmed stop uses production implementation; next-session-open full exit, cash until monthly review. Fixed 85% starting-capital floor is daily-close-to-next-open; no interest.\n- Synthetic dividend-adjusted prices and previously recorded monthly fills, no fees/spread/slippage/FX/tax. Current cached universe, not complete dated membership: survivorship and incomplete fundamental-availability biases. Previously examined in-sample period, not independent validation.\n- Sharpe uses sample daily arithmetic returns, zero risk-free rate, sqrt(252). Independently reconciled cash/NAV and episode P&L; prior baseline and stop study reproduced. All active labs unchanged.\n- This comparison changes only monthly rank weights: 50/33.333/16.667 versus 40/40/20, both with existing 25% stop. Uses production allocation and stop implementation; research-only instance weight override, not configuration change.\n- Same conservative monthly target baskets and dates. Stops do not cause selection reranking. $100 ordinary minimum can skip small adjustments, so actual weights need not exactly match targets.\n- First buys verified: $1500/$1000/$500 versus $1200/$1200/$600. Baseline every trade and metrics reproduce prior study; independently rebuilt cash/NAV and profit. Active labs unchanged.\n- Annual returns are sequential calendar-year portfolio returns, with partial 2022 and 2026 endpoints. These examined years are descriptive, not independent validation; selecting weights after reviewing rank results risks overfitting.\n\nSupporting results: [data/2026-10-11-monthly-40-40-20.json](data/2026-10-11-monthly-40-40-20.json).\n",
@@ -2305,6 +2391,10 @@
     {
       "title": "Skip-month plus conservative: current monthly lab replay",
       "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-lab-replay.md"
+    },
+    {
+      "title": "Skip-month conservative monthly: 40/40/20 weights",
+      "url": "https://github.com/ding-tony/strategy-research/blob/main/reports/2026-10-11-skip-month-conservative-monthly-40-40-20.md"
     },
     {
       "title": "Monthly rank weights: 40/40/20 versus current",

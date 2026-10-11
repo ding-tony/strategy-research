@@ -4,7 +4,7 @@ Interactive version: download [index.html](../index.html) and open it in a brows
 
 To host on GitHub Pages, publish this standalone HTML file through your preferred Pages setup. The published site is linked from the repository README.
 
-Catalog snapshot: October 11, 2026 · 52 saved runs · 14 sources. No new tests or live-lab changes.
+Catalog snapshot: October 11, 2026 · 54 saved runs · 15 sources. No new tests or live-lab changes.
 
 Only tested combinations are selectable. Changing a rule may choose the nearest tested configuration; read the complete rules beneath each selection. Missing metrics remain blank. Dates, data eligibility, prices, protection rules and trade definitions may differ.
 
@@ -45,6 +45,8 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 | Current monthly lab · recorded selections | 2026-08-03–2026-10-09 | 50.08% | 3.975 | 56.71% | -15.03% | 13 (raw) |
 | Normal conservative · recalculated | 2026-08-03–2026-10-09 | 46.03% | 3.688 | 57.39% | -15.03% | 11 (raw) |
 | Skip-month + conservative · recalculated | 2026-08-03–2026-10-09 | 79.71% | 4.033 | 83.08% | -14.85% | 10 (raw) |
+| Normal conservative · 40/40/20 · matched pool | 2022-02-07–2026-10-02 | 2490.68% | 1.914 | 41.11% | -36.41% | 173 (raw) |
+| Skip-month + conservative · 40/40/20 | 2022-02-07–2026-10-02 | 3010.72% | 1.915 | 43.63% | -36.38% | 173 (raw) |
 | Normal conservative · 40/40/20 | 2022-02-07–2026-10-02 | 2611.81% | 1.926 | 41.44% | -36.41% | 172 (raw) |
 | Normal conservative · 40/40/20 | 2026-08-03–2026-10-09 | 50.84% | 4.217 | 53.69% | -14.11% | 13 (raw) |
 | 3-position monthly rotation | 2022-02-07–2026-09-08 | 502.22% | 1.239 | 37.45% | -40.43% | 97 (raw) |
@@ -76,6 +78,7 @@ Only tested combinations are selectable. Changing a rule may choose the nearest 
 - [Skip-month monthly: equal weights versus rank weights](2026-10-11-skip-month-equal-monthly.md)
 - [Skip-month plus conservative factor: matched monthly backtest](2026-10-11-skip-month-conservative-monthly.md)
 - [Skip-month plus conservative: current monthly lab replay](2026-10-11-skip-month-conservative-lab-replay.md)
+- [Skip-month conservative monthly: 40/40/20 weights](2026-10-11-skip-month-conservative-monthly-40-40-20.md)
 - [Monthly rank weights: 40/40/20 versus current](2026-10-11-monthly-40-40-20.md)
 - [Monthly rank weights: 40/40/20 versus current](2026-10-11-monthly-40-40-20-lab-replay.md)
 - [Monthly rotation-only position-count comparison](2026-09-29-monthly-rotation-position-count-backtest.md)
