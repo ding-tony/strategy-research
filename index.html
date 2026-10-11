@@ -38,6 +38,8 @@
     th:first-child, td:first-child { text-align:left; padding-left:0; }
     th { font-weight:600; color:var(--muted); }
     .value { font-size:1.02rem; font-weight:600; }
+    .better .value, .better-mark { color:var(--accent); }
+    .better-mark { display:inline-block; width:6px; height:11px; border:solid currentColor; border-width:0 2px 2px 0; transform:rotate(45deg); margin-right:9px; vertical-align:2px; }
     .difference { display:block; color:var(--muted); font-size:.78rem; margin-top:2px; }
     .notice { margin:24px 0; padding:18px 20px; background:var(--surface); border-radius:12px; }
     .notice h2 { margin-bottom:8px; }
@@ -86,7 +88,7 @@
   <section class="comparison" aria-label="Strategy results">
     <h2>Side-by-side results</h2>
     <p class="muted" id="period"></p>
-    <table><caption class="muted" style="text-align:left;margin-bottom:12px">Changes under B are B minus A, not a recommendation.</caption><thead><tr><th scope="col">Metric</th><th scope="col">Strategy A</th><th scope="col">Strategy B</th></tr></thead><tbody id="metrics"></tbody></table>
+    <table><caption class="muted" style="text-align:left;margin-bottom:12px">Checkmarks highlight higher returns, Sharpe and win rate; lower volatility, drawdown loss, concentration and trade counts. Ties and missing values stay neutral. Changes under B are B minus A, not a recommendation.</caption><thead><tr><th scope="col">Metric</th><th scope="col">Strategy A</th><th scope="col">Strategy B</th></tr></thead><tbody id="metrics"></tbody></table>
   </section>
   <section class="notice" id="compatibility" aria-live="polite"></section>
   <section class="sources" aria-label="Source evidence"><div id="source-a"></div><div id="source-b"></div></section>
@@ -2333,6 +2335,14 @@
 <script>/* Shared tested-run selection and comparison checks; embedded for offline use. */
 globalThis.StrategyComparator = {
   fields: ['base', 'factor', 'frequency', 'weight', 'rebalance', 'positions'],
+  betterMetric(key, a, b) {
+    const direction = {
+      endingEquity:1, totalReturnPct:1, cagrPct:1, sharpe:1, winRatePct:1,
+      maxDrawdownPct:1, annualizedVolatilityPct:-1, orders:-1, top3Pct:-1, monthsOverFive:-1,
+    }[key];
+    if (!direction || !Number.isFinite(a) || !Number.isFinite(b) || a === b) return null;
+    return (a - b) * direction > 0 ? 'a' : 'b';
+  },
   highestSharpe(records) {
     return records.filter(r => Number.isFinite(r.metrics.sharpe))
       .reduce((best, r) => !best || r.metrics.sharpe > best.metrics.sharpe ? r : best, null);
@@ -2438,6 +2448,12 @@ globalThis.StrategyComparator = {
       const row=node('tr'), heading=node('th',label), acell=node('td'), bcell=node('td'); heading.scope='row';
       const av=a.metrics[key], bv=b.metrics[key];
       acell.append(node('span',format(av,unit),'value')); bcell.append(node('span',format(bv,unit),'value'));
+      const better=format(av,unit)===format(bv,unit)?null:model.betterMetric(key,av,bv);
+      if (better) {
+        const cell=better==='a'?acell:bcell, mark=node('span',undefined,'better-mark');
+        mark.setAttribute('role','img'); mark.setAttribute('aria-label','Preferred value for this metric');
+        cell.classList.add('better'); cell.prepend(mark);
+      }
       if (av!==null && av!==undefined && bv!==null && bv!==undefined) {
         const delta=bv-av, sign=delta>0?'+':delta<0?'−':'';
         let text=unit==='money'?money(Math.abs(delta)):Math.abs(delta).toFixed(unit==='count'?0:unit==='ratio'?3:2)+(unit==='percent'?' pp':'');
