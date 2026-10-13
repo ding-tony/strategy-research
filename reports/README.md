@@ -2,6 +2,10 @@
 
 Interactive version: download [index.html](../index.html) and open it in a browser. It works offline; GitHub file preview does not run dropdowns.
 
+## Latest corrected study · October 13, 2026
+
+Start with the [corrected historical monthly comparison](2026-10-13-validated-monthly-strategy-comparison.md), [data recovery findings](2026-10-13-historical-data-recovery.md), and [historical membership audit](2026-10-13-historical-membership-data-audit.md). These results use a shared frozen dataset and revised historical identity handling, but coverage remains incomplete. They are diagnostic and are not directly comparable with the older interactive catalog.
+
 To host on GitHub Pages, publish this standalone HTML file through your preferred Pages setup. The published site is linked from the repository README.
 
 Catalog snapshot: October 11, 2026 · 61 saved runs · 19 sources. No new tests or live-lab changes.

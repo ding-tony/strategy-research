@@ -46,6 +46,12 @@
     .notice ul { margin:8px 0 0; padding-left:20px; }
     .notice li { margin-bottom:5px; }
     .notice.warn h2 { color:var(--warn); }
+    .latest { margin:0 0 30px; padding:22px; border:1px solid var(--line); border-radius:12px; background:var(--surface); }
+    .latest h2 { margin-bottom:8px; }
+    .latest .table-wrap { overflow-x:auto; margin:18px 0; }
+    .latest table { min-width:680px; }
+    .latest th, .latest td { padding:9px 10px; }
+    .latest .caution { color:var(--warn); font-weight:650; }
     .sources { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:32px; margin:32px 0; }
     details { border-top:1px solid var(--line); padding-top:14px; }
     summary { cursor:pointer; font-weight:600; min-height:44px; }
@@ -79,6 +85,23 @@
     <div><h1>Strategy report comparator</h1><p class="muted">Two saved strategies. Their rules, results and trade-offs.</p><small id="snapshot"></small></div>
     <div class="window"><label for="window">Evidence window</label><select id="window"><option>Full history</option><option>Lab replay</option></select></div>
   </header>
+  <section class="latest" aria-labelledby="latest-title">
+    <h2 id="latest-title">Latest research · October 13, 2026</h2>
+    <p class="caution">Diagnostic results. Historical constituent coverage is incomplete, so these rankings are not decision-ready.</p>
+    <p>Corrected monthly comparison using one frozen dataset, dated index membership, verified ticker identities and consistent execution rules. January 6, 2020–October 2, 2026; $3,000 initial capital. The older interactive runs below use different data and should not be compared directly with this table.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Strategy</th><th scope="col">Ending value</th><th scope="col">CAGR</th><th scope="col">Sharpe</th><th scope="col">Max drawdown</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Normal · 40/40/20 monthly</th><td>$66,459.88</td><td>58.37%</td><td>1.514</td><td>-32.59%</td></tr>
+        <tr><th scope="row">Skip-month · 40/40/20 monthly</th><td>$125,698.12</td><td>74.08%</td><td>1.433</td><td>-32.95%</td></tr>
+        <tr><th scope="row">Skip-month · equal monthly</th><td>$81,001.57</td><td>63.09%</td><td>1.435</td><td>-29.38%</td></tr>
+        <tr><th scope="row">Skip-month · equal rotation only</th><td>$79,339.03</td><td>62.59%</td><td>1.446</td><td>-34.08%</td></tr>
+        <tr><th scope="row">SPY buy-and-hold</th><td>$7,923.29</td><td>15.50%</td><td>0.821</td><td>-33.72%</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted">Price-history recovery raised the minimum skip-month history availability from 82.38% to 87.33%, still below the 90% diagnostic threshold. The corrected strategies' lowest executed-review price eligibility was 78.81%. Missing former constituents, historical sector labels and corporate-action checks may change the ranking. Results are in sample and exclude fees, spread, slippage, FX and taxes.</p>
+    <p><a href="reports/2026-10-13-validated-monthly-strategy-comparison.md">Full comparison and methodology</a> · <a href="reports/2026-10-13-historical-data-recovery.md">Data recovery and gaps</a> · <a href="reports/2026-10-13-historical-membership-data-audit.md">Membership audit</a></p>
+  </section>
   <noscript>Enable JavaScript for the dropdown comparator, or open README.md for the saved-results table.</noscript>
   <section class="selectors" aria-label="Choose strategies">
     <fieldset><legend>Strategy A</legend><div class="controls" id="controls-a"></div><label for="run-a">Saved test · exact rules</label><select id="run-a"></select><div id="summary-a"></div></fieldset>
